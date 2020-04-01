@@ -1,0 +1,40 @@
+{% extends 'layouts/default.njk' %}
+
+{% block content %}
+  <article>
+    <header class="u-stack u-text-center u-margin-bottom-3">
+      <span class="u-eyebrow">Case Study</span>
+      <h1 class="u-margin-top-0 u-font-size-xl">{{ title }}</h1>
+      {% if link %}
+        <div class="u-margin-top-025">{% Link link, null, true %}</div>
+      {% endif %}
+      <p class="u-font-size-md">{{ summary | safe }}</p>
+      {% if banner %}
+        {% Figure {
+          breakout: true,
+          src: '/assets/images/' + banner,
+          alt: title + ' graphics'
+        } %}
+      {% endif %}
+    </header>
+    <div class="u-stack">
+      <dl class="c-meta">
+        <dt class="c-meta__title">Role</dt>
+        <dd class="c-meta__description">
+          {% set comma = joiner() %}
+          {% for item in roles -%}{{ comma() }} {{ item }}{%- endfor %}
+        </dd>
+        <dt class="c-meta__title">Tech</dt>
+        <dd class="c-meta__description">
+          {% set comma = joiner() %}
+          {% for item in tech -%}{{ comma() }} {{ item }}{%- endfor %}
+        </dd>
+        {% if team %}
+        <dt class="c-meta__title">Team</dt>
+        <dd class="c-meta__description">{{ team }}</dd>
+        {% endif %}
+      </dl>
+      {{ content | safe }}
+    </div>
+  </article>
+{% endblock %}

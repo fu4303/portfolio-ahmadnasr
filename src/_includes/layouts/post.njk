@@ -1,0 +1,25 @@
+{% extends 'layouts/default.njk' %}
+
+{% block content %}
+  <article class="c-article u-stack u-stack--2">
+    <header>
+      {% include "components/post-date.njk" %}
+      {% include "components/tags.njk" %}
+      <h1 class="u-font-size-xl">{{ title }}</h1>
+      {% if link %}
+        <p class="u-margin-top-025">
+          {% Link link, null, true %}
+        </p>
+      {% endif %}
+      {% if intro %}
+        <p class="u-lead">{{ intro }}</p>
+      {% endif %}
+    </header>
+    <div class="u-stack u-stack--post">
+      {{content | markdownify | safe}}
+    </div>
+    <footer class="u-stack u-margin-top-3">
+      {% include "components/share.njk" %}
+    </footer>
+  </article>
+{% endblock %}

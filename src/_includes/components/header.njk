@@ -1,0 +1,12 @@
+{% macro header(params) %}
+  <header class="u-stack">
+    <h1 class="u-font-size-xxl u-heading-decorate">{{ params.title }}</h1>
+    {% if params.media %}
+      {{ params.media | safe }}
+    {% endif %}
+    <p class="u-font-size-md u-line-height-tighten u-margin-top-05">{{ params.description }}</p>
+    {% if params.extra %}
+      {{ params.extra | markdownify | safe }}
+    {% endif %}
+  </header>
+{% endmacro %}

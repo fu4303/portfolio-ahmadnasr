@@ -1,0 +1,21 @@
+<footer class="c-contentinfo" role="contentinfo">
+  <div class="c-contentinfo__copyrights">
+    <p>{{ site.title }} © 2019</p>
+    <p>
+      Built with  <a target="_blank" href="https://www.11ty.io/">Eleventy</a>
+      <strong>—</strong>
+      Hosted on
+      <a target="_blank" href="https://www.netlify.com">Netlify</a>
+    </p>
+  </div>
+
+  <ul class="c-contentinfo__scoial">
+    {% for item in site.social %}
+    <li class="c-contentinfo__scoial-item">
+      <a class="c-contentinfo__scoial-anchor" rel="me" aria-label="{{ item.label }}" href="{{ item.url }}">
+        {% include "icons/" + item.label | lower + '.svg' %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</footer>

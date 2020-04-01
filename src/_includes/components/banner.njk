@@ -1,0 +1,40 @@
+<header class="c-banner" role="banner">
+  <h1 class="c-banner__branding">
+    <a href="/">
+      <span>{{ site.title }}</span>
+      <span>Front End Web Developer</span>
+    </a>
+  </h1>
+
+  <nav class="c-banner__nav">
+    <ul class="c-banner__nav-list">
+      {% for item in site.navigation -%}
+        {% if item.label == 'Contact' %}
+          <li class="c-banner__nav-item">
+            <a class="c-banner__nav-anchor" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ item.url }}">{{ item.label }}</a>
+          </li>
+        {% endif %}
+        {% if item.label == 'Portfolio' %}
+          <li class="c-banner__nav-item">
+            <a class="c-banner__nav-anchor" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ item.url }}">{{ item.label }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <ul class="c-banner__nav-list">
+      {% for item in site.navigation -%}
+        {% if item.label == 'Bookmarks' %}
+          <li class="c-banner__nav-item">
+            <a class="c-banner__nav-anchor" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ item.url }}">{{ item.label }}</a>
+          </li>
+        {% endif %}
+        {% if item.label == 'Posts' %}
+          <li class="c-banner__nav-item">
+            <a class="c-banner__nav-anchor" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ item.url }}">{{ item.label }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

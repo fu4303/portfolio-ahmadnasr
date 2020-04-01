@@ -1,0 +1,16 @@
+---
+title: Bookmarks
+summary: ''
+pagination:
+  data: collections.bookmarks
+  size: 10
+permalink: /bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
+---
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  {% include "components/listing.njk" %}
+  <div class="u-margin-top-3">
+  {% include "components/pagination.njk" %}
+  </div>
+{% endblock %}
