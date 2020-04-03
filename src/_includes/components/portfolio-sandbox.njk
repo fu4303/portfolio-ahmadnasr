@@ -1,0 +1,14 @@
+{% for entry in collections.portfolio %}
+  {% if entry.data.category == "sandbox" %}
+    <li class="c-entry">
+      <h3 class="c-entry__title">{% if entry.data.favorite %}⭐️ {% endif %}<a href="{{ entry.url }}">{{ entry.data.title }}</a></h3>
+        <ul class="c-tags">
+          {% for tag in entry.data.tags %}
+            <li class="c-tags__item">
+              {% Pill '#' + tag | upper, '/tagged/' + tag %}
+            </li>
+          {% endfor %}
+        </ul>
+    </li>
+  {% endif %}
+{% endfor %}

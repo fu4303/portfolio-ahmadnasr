@@ -1,18 +1,18 @@
-<footer class="c-contentinfo" role="contentinfo">
-  <div class="c-contentinfo__copyrights">
-    <p>{{ site.title }} © 2019</p>
+<footer class="p-footer o-layout__footer" role="contentinfo">
+  <div class="p-footer__copyrights">
+    <p>{{ site.title }} © 2020</p>
     <p>
-      Built with  <a target="_blank" href="https://www.11ty.io/">Eleventy</a>
+      Built with  <a target="_blank" href="https://www.11ty.io/" class="c-button c-button--sm c-button--primary">Eleventy</a>
       <strong>—</strong>
       Hosted on
-      <a target="_blank" href="https://www.netlify.com">Netlify</a>
+      <a target="_blank" href="https://www.netlify.com" class="c-button c-button--sm c-button--primary">Netlify</a>
     </p>
   </div>
 
-  <ul class="c-contentinfo__scoial">
+  <ul class="p-footer__scoial o-list--bare o-list--inline">
     {% for item in site.social %}
-    <li class="c-contentinfo__scoial-item">
-      <a class="c-contentinfo__scoial-anchor" rel="me" aria-label="{{ item.label }}" href="{{ item.url }}">
+    <li class="p-footer__scoial-item">
+      <a class="p-footer__scoial-anchor" rel="me" aria-label="{{ item.label }}" href="{{ item.url }}">
         {% include "icons/" + item.label | lower + '.svg' %}
       </a>
     </li>

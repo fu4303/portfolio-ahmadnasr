@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: Finite state machines
 tags:
   - learning

@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/portfolio",
+    "permalink": "portfolio/{{ page.fileSlug }}/index.html",
+    "type": "portfolio"
+}

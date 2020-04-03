@@ -1,10 +1,11 @@
 ---
 title: Posts
-summary: ''
+summary: 'I like to research, read, learn and practice, then I share with people what I am learning by writing about it.'
 pagination:
   data: collections.posts
-  size: 12
+  size: 10
 permalink: /posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
+scope: s-posts
 ---
 {% extends 'layouts/page.njk' %}
 

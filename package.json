@@ -1,5 +1,5 @@
 {
-    "name": "alexcarpenter.me",
+    "name": "ahmedhosna.me",
     "version": "1.0.0",
     "scripts": {
         "start": "SET ELEVENTY_ENV=development &  npx eleventy --config=_eleventy/config.js --serve --watch",

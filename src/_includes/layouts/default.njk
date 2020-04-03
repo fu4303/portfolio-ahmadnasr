@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0055FF" />
   <meta name="robots" content="index,follow" />
 
-  <title>{% if title and page.url != '/' %}{{ title }}{% else %}UI Engineer{% endif %} - {{ site.title }}</title>
+  <title>{% if title and page.url != '/' %}{{ title }}{% else %}Front-End Developer{% endif %} - {{ site.title }}</title>
   <meta name="description" content="{% if summary %}{{ summary | markdownify_inline | strip_html }}{% elseif description %}{{ description | markdownify_inline | strip_html }}{% else %}{{ site.description }}{% endif %}" />
 
-  <meta property="og:title" content="{% if title and page.url != '/' %}{{ title }}{% else %}UI Engineer{% endif %} - {{ site.title }}">
+  <meta property="og:title" content="{% if title and page.url != '/' %}{{ title }}{% else %}Front-End Developer{% endif %} - {{ site.title }}">
   <meta property="og:description" content="{% if summary %}{{ summary | markdownify_inline | strip_html }}{% elseif description %}{{ description | markdownify_inline | strip_html }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url | permalink }}">
   <meta property="og:image" content="{{ site.url }}{%if thumbnail %}{{ thumbnail }}{% else %}/assets/images/og-image.png{% endif %}">
 
-  <meta name="twitter:site" content="@hybrid_alex">
-  <meta name="twitter:creator" content="@hybrid_alex">
-  <meta name="twitter:title" content="{% if title and page.url != '/' %}{{ title }}{% else %}UI Engineer{% endif %} - {{ site.title }}">
+  <meta name="twitter:site" content="@ahmedhosna95">
+  <meta name="twitter:creator" content="@ahmedhosna95">
+  <meta name="twitter:title" content="{% if title and page.url != '/' %}{{ title }}{% else %}Front-End Developer{% endif %} - {{ site.title }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ site.url }}{%if thumbnail %}{{ thumbnail }}{% else %}/assets/images/og-image.png{% endif %}">
 
@@ -34,6 +34,7 @@
       :root { --color-primary: {{ primaryColor }}; }
     {% endif %}
   {% endset %}
+
   <style>
   {% if env.environment == "production" %}
     {{ css | cssmin | safe }}
@@ -42,16 +43,28 @@
   {% endif %}
   </style>
 </head>
-<body>
+<body class="{{ scope }}">
   <a href="#main-content" class="c-skip">Skip to main content</a>
   <div class="o-page">
-    {% include "components/banner.njk" %}
-    <main id="main-content" class="o-main u-stack u-stack--2">
-      {% block header %}{% endblock %}
-      {% block content %}{% endblock %}
-    </main>
-    {% include "components/contentinfo.njk" %}
+    {% include "../../assets/images/bg.svg" %}
+    <div class="o-layout">
+      {% include "components/banner.njk" %}
+      <main class="o-main o-layout__main" id="main-content">
+        {% block header %}{% endblock %}
+        {% block content %}{% endblock %}
+      </main>
+      {% include "components/contentinfo.njk" %}
+    </div>
   </div>
-  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  {% set js %}
+    {% include "assets/app.js" %}
+  {% endset %}
+
+    <script>
+      {{ js | jsmin | safe }}
+    </script>
+  {# <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script> #}
 </body>
 </html>

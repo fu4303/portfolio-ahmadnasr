@@ -1,25 +1,21 @@
 {
-    "url": "https://alexcarpenter.me",
-    "title": "Ahmed Nasr",
-    "description": "Self taught developer that works best when floating in between design and engineering teams. I enjoy sharing what I know via short instructional screencasts and the occasional written post.",
+    "url": "https://ahmedhosna.me",
+    "title": "Ahmed Hosna",
+    "description": "Self taught Front-end web developer from Egypt. I make things for web.",
     "navigation": [{
-        "label": "Posts",
+        "label": "Articles",
         "url": "/posts/"
     }, {
         "label": "Bookmarks",
         "url": "/bookmarks/"
     }, {
         "label": "Portfolio",
-        "url": "/work/"
+        "url": "/portfolio/"
     }, {
         "label": "Contact",
         "url": "/contact/"
     }],
     "social": [{
-        "label": "YouTube",
-        "url": "https://www.youtube.com/channel/UC2jJoQlzvLPvnYfowAEVaOg",
-        "subscribe": "https://www.youtube.com/channel/UC2jJoQlzvLPvnYfowAEVaOg?sub_confirmation=1"
-    }, {
         "label": "Twitter",
         "url": "https://twitter.com/hybrid_alex"
     }, {
@@ -36,49 +32,24 @@
         "url": "https://www.linkedin.com/in/imalexcarpenter"
     }],
     "projects": [{
-        "title": "alexcarpenter.me",
-        "url": "https://github.com/alexcarpenter/alexcarpenter.me",
+        "title": "ahmedhosna.me",
+        "url": "https://github.com/ahmedhosna95/ahmedhosna.me",
         "description": "Source files for my personal website built with Eleventy and hosted with Netlify.",
         "language": "HTML"
+    }, {
+        "title": "react-todo-list-app",
+        "url": "https://github.com/ahmedhosna95/simple-react-todo-list-app",
+        "description": "Crowd-sourced list of US coffee roasters",
+        "language": "JavaScript"
+    }, {
+        "title": "clear-view-escapes-landing-page",
+        "url": "https://github.com/ahmedhosna95/travel-site-workflow-updated",
+        "description": "Crowd-sourced list of US coffee roasters",
+        "language": "JavaScript"
     }, {
         "title": "us-coffee-roasters",
         "url": "https://github.com/alexcarpenter/us-coffee-roasters",
         "description": "Crowd-sourced list of US coffee roasters",
-        "language": "JavaScript"
-    }, {
-        "title": "butane-combobox",
-        "url": "https://github.com/alexcarpenter/butane-combobox",
-        "description": "An accessible combobox/autocomplete library.",
-        "language": "JavaScript"
-    }, {
-        "title": "butane-toasts",
-        "url": "https://github.com/alexcarpenter/butane-toasts",
-        "description": "A small library for creating toast messages.",
-        "language": "JavaScript"
-    }, {
-        "title": "butane-show-hide",
-        "url": "https://github.com/alexcarpenter/butane-show-hide",
-        "description": "An accessible show/hide JS library.",
-        "language": "JavaScript"
-    }, {
-        "title": "eleventy-boilerplate",
-        "url": "https://github.com/alexcarpenter/eleventy-boilerplate",
-        "description": "An opinionated boilerplate for new projects built with Eleventy.",
-        "language": "JavaScript"
-    }, {
-        "title": "object-to-querystring",
-        "url": "https://github.com/alexcarpenter/object-to-querystring",
-        "description": "Convert a object into a query string.",
-        "language": "JavaScript"
-    }, {
-        "title": "querystring-to-object",
-        "url": "https://github.com/alexcarpenter/querystring-to-object",
-        "description": "Convert a query string into an object.",
-        "language": "JavaScript"
-    }, {
-        "title": "slugify",
-        "url": "https://github.com/alexcarpenter/slugify",
-        "description": "Convert a string into a slug",
         "language": "JavaScript"
     }],
     "interviews": [{

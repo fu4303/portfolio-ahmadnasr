@@ -1,8 +1,10 @@
 ---
+favorite: true
 title: CSS grid and custom properties
-test: test test
 tags:
   - css
+  - Javascript
+scope: s-article
 ---
 
 When building client sites, it was a common request to adjust grid layouts based on content types. For example, if the content type was a blog article, we wanted to display three items per row and include a gap between the items equal to `1rem`. If the content type was a calendar event, we wanted two items per row and increase the gap to `2rem`.

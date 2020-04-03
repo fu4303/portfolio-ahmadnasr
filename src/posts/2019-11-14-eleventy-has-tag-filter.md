@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: 11ty has tag filter
 ---
 I've been using my blog as a notebook lately. Collecting small notes and links to resources about things I am learning and courses I am taking.

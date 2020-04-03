@@ -1,12 +1,17 @@
-
-<article class="c-entry">
-  <header>
-    <time class="u-eyebrow c-date">
-      <span class="c-date__day">{{ (entry.date | date_formatted).substr(4, 2) }}</span>
-      <span class="c-date__month">{{ (entry.date | date_formatted).slice(0, 3) }}</span>
-      <span class="c-date__year">{{ (entry.date | date_formatted).slice(-4) }}</span>
-    </time>
-    <h2 class="c-entry__heading">{% if entry.data.favorite %}⭐️ {% endif %}<a href="{{ entry.url }}">{{ entry.data.title }}</a></h2>
-
-  </header>
-</article>
+<li class="c-entry">
+  <time class="c-date">
+    <span class="c-date__day">{{ (entry.date | date_formatted).substr(4, 2) }}</span>
+    <span class="c-date__month">{{ (entry.date | date_formatted).slice(0, 3) }}</span>
+    <span class="c-date__year">{{ (entry.date | date_formatted).slice(-4) }}</span>
+  </time>
+  <h3 class="c-entry__title">{% if entry.data.favorite %}⭐️ {% endif %}<a href="{{ entry.url }}">{{ entry.data.title }}</a></h3>
+  <ul class="c-tags o-list--bare">
+    {% for tag in entry.data.tags %}
+      <li class="c-tags__item">
+        <a href="{{'/tagged/' + tag}}">
+          <span>{{'#' + tag | upper}}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</li>

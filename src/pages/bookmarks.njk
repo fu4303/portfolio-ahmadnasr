@@ -5,6 +5,7 @@ pagination:
   data: collections.bookmarks
   size: 10
 permalink: /bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
+scope: s-bookmarks
 ---
 {% extends 'layouts/page.njk' %}
 
