@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: "How to check if an object within array contains a value"
 tags:
   - javascript

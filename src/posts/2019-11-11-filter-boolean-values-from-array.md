@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: "How to filter boolean values from an array"
 tags:
   - javascript

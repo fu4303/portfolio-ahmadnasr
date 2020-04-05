@@ -1,4 +1,5 @@
 ---
+favorite: true
 title: "Medium's inaccessible tag selector form"
 tags:
   - accessibility

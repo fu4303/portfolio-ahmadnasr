@@ -5,31 +5,57 @@ tags:
   - learning
 ---
 
-Since watching the [learn state machines with David K. Piano](https://www.youtube.com/watch?v=czi24DqUfSA) on YouTube, I have been intrigued about state machinces and the issues they help alleviate.
+Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 
-> is a mathematical model of computation. It is an abstract machine that can be in exactly one of a finite number of states at any given time.
+1. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+2. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking.
+3. Leverage agile frameworks to provide a robust.
 
-So it the most common example, a form can move from an idle state to a loading state and a loading state to either a successful or error state. You shouldn't get into an successful state without transitioning through the loading state. And more importantly, you shouldn't be able to hit the submit button when not in the idle state or error state.
+{% Quote {
+  text: 'Quote text',
+  cite: 'Max Böck, [On Simplicity](https://mxb.dev/blog/on-simplicity/)'
+} %}
 
-## Concepts
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
-Formally, finite state machines have five parts:
+{% Figure {
+  src: '/static/img/immgg.jpg',
+  alt: 'Alt text',
+  caption: 'Caption text'
+} %}
 
-- A finite number of states
-- A finite number of events
-- An initial state
-- A transition function that determines the next state given the current state and event
-- A (possibly empty) set of final states
+## 3 Important things about CSS
 
-via [XState docs](https://xstate.js.org/docs/about/concepts.html#finite-state-machines)
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to _corporate_ strategy foster collaborative thinking to further the overall value proposition. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 
-## Resources
+{% Youtube "GV9yHrQ293U" %}
 
-- [XState](https://xstate.js.org/docs/) - tool
-- [XState Visualizer](https://xstate.js.org/viz/) - tool
-- [Robot](https://thisrobot.life/) - tool
-- [Learn State Machines](https://learnstatemachines.com/) - course
-- [Introduction to XState](https://www.youtube.com/watch?v=73Ch_EL4YVc) - screencast
-- [Let’s learn state machines with David K. Piano!](https://www.youtube.com/watch?v=czi24DqUfSA) - stream
-- [State Machines: What Are They?](https://kyleshevlin.com/what-are-state-machines) - article
-- [Reach UI Combobox stateChart](https://github.com/reach/reach-ui/blob/master/packages/combobox/src/index.js#L80) - tool
+***
+
+> Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+
+``` css/1,2
+.site-footer span {
+  font-size: 15px;
+  padding: 1em 0 1.4em;
+  background: radial-gradient(rgba(131, 164, 223, 0.5), transparent), transparent radial-gradient(rgba(131, 164, 223, 0.5), transparent), transparent;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.site-footer span a {
+  color: gold !important;
+  margin: .2rem;
+  border: 1px solid gold;
+  border-radius: 2px;
+  padding: .08em .6em .08em;
+  transition: background .1s ease;
+  box-shadow: 1px 1px gold;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  top: -1px;
+  font-weight: 700;
+  font-style: normal;
+}
+```

@@ -1,4 +1,4 @@
-<ol class="c-entries js-counts">
+<ol class="c-entries" style="counter-reset: counts {{pagination.items.length + 1}}">
   {% for entry in pagination.items %}
     {% include "components/entry.njk" %}
   {% endfor %}

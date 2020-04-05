@@ -1,9 +1,11 @@
 {% if tags %}
-<ul class="c-tags">
-  {% for tag in tags %}
-    <li class="c-tags__item">
-      {% Pill '#' + tag | upper, '/tagged/' + tag %}
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="c-tags o-list--bare">
+    {% for tag in tags %}
+      <li class="c-tags__item">
+        <a href="{{'/tagged/' + tag}}">
+          <span>{{'#' + tag | upper}}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endif %}

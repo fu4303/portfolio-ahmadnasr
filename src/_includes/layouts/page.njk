@@ -2,11 +2,11 @@
 
 {% block header %}
   <section class="c-section c-section--intro">
-    <h1 class="u-font-size-xxl u-heading-decorate">{{ title }}</h1>
+    <h1 class="c-section__page-title">{{ title }}</h1>
     {% if summary %}
-      <p role="doc-subtitle" class="u-margin-top-05 u-font-size-md">{{ summary | markdownify_inline | safe }}</p>
+      <p role="doc-subtitle" class="u-line-decorate">{{ summary | markdownify_inline | safe }}</p>
     {% elif description %}
-      <p role="doc-subtitle" class="u-margin-top-05 u-font-size-md">{{ description | markdownify_inline | safe }}</p>
+      <p role="doc-subtitle">{{ description | markdownify_inline | safe }}</p>
     {% endif %}
     {% block headerExtra %}{% endblock %}
   </section>

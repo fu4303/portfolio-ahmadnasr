@@ -4,6 +4,7 @@ description: "Self taught Front-end web developer from Egypt. I make things for 
 permalink: /index.html
 scope: s-index
 ---
+
 {% extends 'layouts/page.njk' %}
 
 {% block header %}
@@ -17,7 +18,7 @@ scope: s-index
     </div>
 
     <div class="c-avatar" style="--aspect-ratio: 1/1;">
-      <img src="/assets/images/alexcarpenter-avatar-500.jpg" alt="Photo of Ahmed Nasr">
+      <img src="/assets/images/avatar-200.jpg" alt="Photo of Ahmed Nasr">
     </div>
     <p>Currently, I’am working on improving my skills in Front-end development, in an attempt to be a special one of those people who write code and design for web. My passion lies in building clean and modern code.</p>
     <p>I share some ramblings as a result of my frontend daily practice. <a target="_blank" href="#0">Here</a> you can read them.</p>
@@ -43,33 +44,33 @@ scope: s-index
   </section>
 
   <hr class="u-line-divider">
-  <section class="c-section u-stack u-stack--2">
+  <section class="c-section c-section--popular u-stack u-stack--2">
     <h2>My Popular Articles</h2>
     <p class="u-line-decorate">My ramblings in front-end development.</p>
-    <ol class="o-list--bare js-counts">
-      {% for post in collections.posts | favorites(4) %}
-      <li class="c-entry">
-        <h3 class="c-entry__title">
-          <a href="{{ post.url }}">
-            <span>{{ post.data.title }}</span>
-          </a>
-        </h3>
-        <div class="c-entry__meta">
-          <time class="c-date">
-            <span class="c-date__day">{{ (post.date | date_formatted).substr(4, 2) }}</span>
-            <span class="c-date__month">{{ (post.date | date_formatted | upper).slice(0, 3) }}</span>
-            <span class="c-date__year">{{ (post.date | date_formatted).slice(-4) }}</span>
-          </time>
-
-          <ul class="c-tags">
+    <ol class="o-list--bare" style="counter-reset: counts 8">
+      {% for post in collections.posts | favorites(7) %}
+        <li class="c-entry">
+          {% if post.data.favorite %}
+            <span class="c-entry__favorite-icon">⭐️ </span>
+          {% endif %}
+          <h3 class="c-entry__title">
+            <a href="{{ post.url }}">
+              <span>{{ post.data.title }}</span>
+            </a>
+          </h3>
+          <ul class="c-tags o-list--bare">
             {% for tag in post.data.tags %}
               <li class="c-tags__item">
-                {% Pill '#' + tag | upper, '/tagged/' + tag %}
+                <a href="{{'/tagged/' + tag}}">
+                  <span>{{'#' + tag | upper}}</span>
+                </a>
               </li>
             {% endfor %}
           </ul>
-        </div>
-      </li>
+          <time class="c-entry__date">
+            <span>{{ post.date | date_formatted }}</span>
+          </time>
+        </li>
       {% endfor %}
     </ol>
     <p>
@@ -103,4 +104,14 @@ scope: s-index
     </a>
 
   </section>
+{% endblock %}
+
+
+{% block scripts %}
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <script>
+    new SimpleBar(document.querySelector(".c-section--popular ol"), {
+      autoHide: false,
+    });
+  </script>
 {% endblock %}

@@ -13,26 +13,48 @@ To do this, we would typically create grid variants based on type – `grid--art
 
 Now we can make use of CSS grid and custom properties to create a flexible grid system. Below we create our grid object and create a custom property for `grid-gap` and `grid-items-per-row` and set their default values.
 
-```css
-.o-grid {
-  --grid-gap: 1rem;
-  --grid-items-per-row: 3;
-  display: grid;
-  grid-gap: var(--grid-gap);
-  grid-template-columns: repeat((var(--grid-items-per-row)), 1fr);
+```javascript/4-7
+const inputs = document.querySelectorAll(".input-control input");
+
+function handleUpdate() {
+  const suffix = this.dataset.sizing || ""; // Returns the value of data-sizing or "" empty string.
+  document.documentElement.style.setProperty(
+    `--${this.name}`,
+    this.value + suffix
+  );
 }
+
+inputs.forEach(input => input.addEventListener("change", handleUpdate));
+inputs.forEach(input => input.addEventListener("mousemove", handleUpdate));
 ```
 
 Now we can use of grid object with our defaults as seen below. With this we'd expect to see three items per row with a grid gap of `1rem`.
 
 ```html
-<div class="o-grid">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
+<h1>Update CSS Variables with <span class="highlight">JS</span></h1>
+
+<div class="controls">
+  <div class="input-control">
+    <label for="spacing">Spacing</label>
+    <!-- name, value and data-sizing for JavaScript work. -->
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px" />
+  </div>
+
+  <div class="input-control">
+    <label for="blur">Blur:</label>
+    <!-- name, value and data-sizing for JavaScript work. -->
+    <input type="range" name="blur" min="0" max="25" value="3" data-sizing="px" />
+  </div>
+
+  <div class="input-control">
+    <label for="base">Base Color:</label>
+    <!-- name, value for JavaScript work. -->
+    <input type="color" name="base" value="#FFD700" />
+  </div>
+</div>
+
+<div class="image-wrapper">
+  <img src="img.jpg" alt="Cool" />
 </div>
 ```
 
@@ -50,3 +72,49 @@ If we want to override the defaults, we can set our custom properties inline. No
 ```
 
 [Here's a demo on CodePen](https://codepen.io/alexcarpenter/pen/Vwwgywd) that you can play with.
+
+### The bones (HTML structure)
+
+Here is the final result of our markup:
+
+```html/6,12,18
+<h1>Update CSS Variables with <span class="highlight">JS</span></h1>
+
+<div class="controls">
+  <div class="input-control">
+    <label for="spacing">Spacing</label>
+    <!-- name, value and data-sizing for JavaScript work. -->
+    <input
+      type="range"
+      name="spacing"
+      min="10"
+      max="200"
+      value="10"
+      data-sizing="px"
+    />
+  </div>
+
+  <div class="input-control">
+    <label for="blur">Blur:</label>
+    <!-- name, value and data-sizing for JavaScript work. -->
+    <input
+      type="range"
+      name="blur"
+      min="0"
+      max="25"
+      value="3"
+      data-sizing="px"
+    />
+  </div>
+
+  <div class="input-control">
+    <label for="base">Base Color:</label>
+    <!-- name, value for JavaScript work. -->
+    <input type="color" name="base" value="#FFD700" />
+  </div>
+</div>
+
+<div class="image-wrapper">
+  <img src="img.jpg" alt="Cool" />
+</div>
+```

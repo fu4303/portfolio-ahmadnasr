@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Articles
 summary: 'I like to research, read, learn and practice, then I share with people what I am learning by writing about it.'
 pagination:
   data: collections.posts
@@ -10,8 +10,8 @@ scope: s-posts
 {% extends 'layouts/page.njk' %}
 
 {% block content %}
-  {% include "components/listing.njk" %}
-  <div class="u-margin-top-3">
-  {% include "components/pagination.njk" %}
-  </div>
+  <section class="c-section c-section--entries u-stack--3">
+    {% include "components/listing.njk" %}
+    {% include "components/pagination.njk" %}
+  </section>
 {% endblock %}
