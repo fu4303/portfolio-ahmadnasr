@@ -5,6 +5,7 @@ code:not([class]) {
   border-radius: 2px;
   padding: .05em .3em .15em;
   color: #444;
+  white-space: pre;
 }
 
 /* Code blocks */
@@ -57,20 +58,20 @@ code[class*=language-], pre[class*=language-] {
 /* Code blocks */
 
 pre[class*=language-] {
-  padding: 3.6rem 3.2rem;
-  margin-left: -3.2rem;
-  margin-right: -3.2rem;
+  padding: 3.6rem var(--article-pad-h);
+  margin-left: calc(var(--article-pad-h) * -1);
+  margin-right: calc(var(--article-pad-h) * -1);
   overflow: auto;
 }
 
 :not(pre)>code[class*=language-], pre[class*=language-] {
-  background: hsla(270, 20%, 22%, 1);
+  background: hsla(270, 20%, 21%, 1);
 }
 
 /* Inline code */
 
-:not(pre)>code[class*=language-] {
-  padding: 0.1em;
+:not(pre)>code[class*=language-]:not(pre)>code[class*=language-] {
+  /* padding: 0.1em; */
   border-radius: 0.3em;
   white-space: normal;
 }
@@ -202,8 +203,8 @@ pre[class*=language-javascript]::before {
 /* ------------- */
 
 .highlight-line-active {
-  margin: 0 -3.2rem;
-  padding-left: 3.2rem;
+  margin: 0 calc(var(--article-pad-h) * -1);
+  padding-left: var(--article-pad-h);
   display: inline-block;
   color: inherit;
   width: 100%;

@@ -7,23 +7,23 @@ scope: s-portfolio
 {% extends 'layouts/page.njk' %}
 
 {% block content %}
-  <div class="projects-wrapper">
-    <div class="projects projects--sandbox">
-      <header class="projects__header">
+  <div class="l-projects">
+    <div class="c-projects c-projects--sandbox">
+      <header class="c-projects__header">
         <h2>
-          <span class="projects__header__title">daily practice</span>
-          <span class="projects__header__subtitle">
+          <span class="c-projects__title">daily practice</span>
+          <span class="c-projects__subtitle">
             since
-            <strong id="daysCount">15</strong>
+            <strong id="js-daysCount"></strong>
             days
           </span>
         </h2>
       </header>
-      <ol data-simplebar data-simplebar-auto-hide="false" class="projects__body list js-counts">
+      <ol class="c-projects__body js-counts">
         {% include "components/portfolio-sandbox.njk" %}
       </ol>
-      <footer class="projects__footer">
-        <a href="#">
+      <footer class="c-projects__footer">
+        <a href="#" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 92 92">
             <path d="M62 53c-4 0-7 4-7 9s3 9 7 9c3 0 6-4 6-9s-3-9-6-9zm23-24c0-2 0-12-4-22 0 0-9 1-22 10l-13-1-13 1C20 8 11 7 11 7 7 17 7 27 7 29c-4 5-7 11-7 19 0 36 30 37 37 37a7984 7984 0 0 1 18 0c7 0 37-1 37-37 0-8-3-14-7-19zM46 81c-19 0-34-3-34-21 0-4 2-8 6-12 6-5 16-3 28-3s22-2 28 3c4 4 6 8 6 12 0 18-15 21-34 21zM30 53c-3 0-6 4-6 9s3 9 6 9c4 0 7-4 7-9s-3-9-7-9z"/>
           </svg>
@@ -32,18 +32,18 @@ scope: s-portfolio
       </footer>
     </div>
 
-    <div class="projects projects--javascript">
-      <header class="projects__header">
+    <div class="c-projects c-projects--javascript">
+      <header class="c-projects__header">
         <h2>
-          <span class="projects__header__title">javascript projects</span>
-          <span class="projects__header__subtitle">these were hard times ◕‸◕</span>
+          <span class="c-projects__title">javascript projects</span>
+          <span class="c-projects__subtitle">these were hard times ◕‸◕</span>
         </h2>
       </header>
-      <ol data-simplebar data-simplebar-auto-hide="false" class="projects__body list js-counts">
+      <ol class="c-projects__body js-counts">
         {% include "components/portfolio-javascript.njk" %}
       </ol>
-      <footer class="projects__footer">
-        <a href="#">
+      <footer class="c-projects__footer">
+        <a href="#" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 92 92">
             <path d="M62 53c-4 0-7 4-7 9s3 9 7 9c3 0 6-4 6-9s-3-9-6-9zm23-24c0-2 0-12-4-22 0 0-9 1-22 10l-13-1-13 1C20 8 11 7 11 7 7 17 7 27 7 29c-4 5-7 11-7 19 0 36 30 37 37 37a7984 7984 0 0 1 18 0c7 0 37-1 37-37 0-8-3-14-7-19zM46 81c-19 0-34-3-34-21 0-4 2-8 6-12 6-5 16-3 28-3s22-2 28 3c4 4 6 8 6 12 0 18-15 21-34 21zM30 53c-3 0-6 4-6 9s3 9 6 9c4 0 7-4 7-9s-3-9-7-9z"/>
           </svg>
@@ -52,18 +52,18 @@ scope: s-portfolio
       </footer>
     </div>
 
-    <div class="projects projects--recent">
-      <header class="projects__header">
+    <div class="c-projects c-projects--recent">
+      <header class="c-projects__header">
         <h2>
-          <span class="projects__header__title">recent projects</span>
-          <span class="projects__header__subtitle">selected ones</span>
+          <span class="c-projects__title">recent projects</span>
+          <span class="c-projects__subtitle">selected ones</span>
         </h2>
       </header>
-      <ol data-simplebar data-simplebar-auto-hide="false" class="projects__body list js-counts">
+      <ol class="c-projects__body js-counts">
         {% include "components/portfolio-recent.njk" %}
       </ol>
-      <footer class="projects__footer">
-        <a href="#">
+      <footer class="c-projects__footer">
+        <a href="#" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 92 92">
             <path d="M62 53c-4 0-7 4-7 9s3 9 7 9c3 0 6-4 6-9s-3-9-6-9zm23-24c0-2 0-12-4-22 0 0-9 1-22 10l-13-1-13 1C20 8 11 7 11 7 7 17 7 27 7 29c-4 5-7 11-7 19 0 36 30 37 37 37a7984 7984 0 0 1 18 0c7 0 37-1 37-37 0-8-3-14-7-19zM46 81c-19 0-34-3-34-21 0-4 2-8 6-12 6-5 16-3 28-3s22-2 28 3c4 4 6 8 6 12 0 18-15 21-34 21zM30 53c-3 0-6 4-6 9s3 9 6 9c4 0 7-4 7-9s-3-9-7-9z"/>
           </svg>
@@ -76,5 +76,22 @@ scope: s-portfolio
 
 
 {% block scripts %}
-  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <script>
+    Array.from(document.querySelectorAll(".js-counts")).forEach((item) => {
+      item.style.setProperty(
+        "counter-reset",
+        `counts ${item.querySelectorAll("li").length + 1}`
+      );
+    });
+
+    const sandbox = document.querySelector(".c-projects--sandbox").querySelectorAll("li");
+    document.getElementById('js-daysCount').innerText = sandbox.length;
+
+    {% include "assets/simplebar.min.js" %}
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('.c-projects .c-projects__body'),
+      el => new SimpleBar(el, { autoHide: false })
+    );
+  </script>
 {% endblock %}

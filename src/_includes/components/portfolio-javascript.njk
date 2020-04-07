@@ -1,14 +1,45 @@
 {% for entry in collections.portfolio %}
   {% if entry.data.category == "js" %}
-    <li class="c-entry">
-      <h3 class="c-entry__title">{% if entry.data.favorite %}⭐️ {% endif %}<a href="{{ entry.url }}">{{ entry.data.title }}</a></h3>
-        <ul class="c-tags">
-          {% for tag in entry.data.tags %}
-            <li class="c-tags__item">
-              {% Pill '#' + tag | upper, '/tagged/' + tag %}
-            </li>
-          {% endfor %}
-        </ul>
+    <li class="c-project">
+      {% if entry.data.favorite %}<span>⭐️</span>{% endif %}
+
+      <div class="c-project__thumb">
+        <a href="{{ entry.url }}">
+          <img src="{{ entry.data.thumb }}" alt="{{ entry.data.title }}" title="{{ entry.data.title }}">
+        </a>
+      </div>
+
+      <div class="c-project__overview">
+        <h3 class="c-project__title">
+          <a href="{{ entry.url }}">
+            <span>
+              {{ entry.data.title }}
+            </span>
+          </a>
+        </h3>
+
+        <p class="c-project__tech">
+          {% set comma = joiner() %}
+          {% for item in entry.data.tech -%}{{ comma() }} {{ item }}{%- endfor %}
+        </p>
+
+        {% if entry.data.summary %}
+          <p class="c-project__summary">{{ entry.data.summary }}</p>
+        {% endif %}
+
+        {% if entry.data.links %}
+          <div class="c-project__links">
+            {% for item in entry.data.links -%}
+              {% if item.live %}
+                <a href="{{ item.live }}" target="_blank">Live Preview</a>
+              {% endif %}
+              {% if item.code %}
+                <a href="{{ item.code }}" target="_blank">Source files</a>
+              {% endif %}
+            {%- endfor %}
+          </div>
+        {% endif %}
+      </div>
     </li>
   {% endif %}
 {% endfor %}

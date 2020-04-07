@@ -13,7 +13,7 @@
       </h1>
 
       {% if link %}
-        <p class="u-margin-top-025">
+        <p class="c-article__external">
           {% Link link, null, true %}
         </p>
       {% endif %}
@@ -23,13 +23,13 @@
     </header>
     <section class="c-article__content u-stack--4 u-stack--post">
       {{content | markdownify | safe}}
-      {% include "components/share.njk" %}
     </section>
 
     <footer class="c-article__footer">
+      {% include "components/share.njk" %}
       <div class="c-article__author">
         <div class="c-article__author-avatar">
-          <img width="100" height="100" src="/assets/images/avatar-200.jpg">
+          <img src="/assets/images/avatar-300.jpg">
         </div>
         <div class="c-article__author-info">
           <span>Written by</span>
@@ -38,20 +38,21 @@
       </div>
     </footer>
   </article>
+  <a href="/posts" class="c-button c-button--md c-button--secondary">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+    Blog index
+    <span class="u-hidden-visually">Blog index</span>
+  </a>
 {% endblock %}
 
 {% block scripts %}
-  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   <script>
-    Array.prototype.forEach.call(
-      document.querySelectorAll('pre[class*=language-]'),
-      el => new SimpleBar(el, { autoHide: false })
-    );
-
     const articleHeader = document.querySelector(".c-article__header");
     const articleTitle = document.querySelector(".c-article__title");
     const articleTitleText = document.querySelector(".c-article__title span");
-    const articleAuthor = document.querySelector(".c-article__footer .c-article__author");
+    const articleAuthor = document.querySelector(".c-article__author");
+    const articleExternalLink = document.querySelector(".c-article__external");
 
     const range = 100;
 
@@ -59,25 +60,34 @@
       const currentScroll = pageYOffset;
       const backgroundMove = Math.round((currentScroll / 3 / (range * 11)) * 100);
 
-      if (articleTitle && articleTitleText && articleAuthor) {
-        const CompletelyFadePoint =
-          articleTitleText.getBoundingClientRect().top + pageYOffset + 40;
-        const opacityValue =
-          1 - (currentScroll - CompletelyFadePoint + range) / range;
+      const CompletelyFadePoint =
+        articleTitleText.getBoundingClientRect().top + pageYOffset + 40;
+      const opacityValue =
+        1 - (currentScroll - CompletelyFadePoint + range) / range;
 
-        articleTitleText.style.opacity = opacityValue;
-        articleTitleText.style.transform = `translateY(${currentScroll / 3}px)`;
-        articleTitleText.style.transform = `translateY(${currentScroll / 3}px)`;
-
-        if (opacityValue > "1") {
-          articleTitleText.style.opacity = 1;
-        } else if (opacityValue < "0") {
-          articleTitleText.style.opacity = 0;
-        }
-
-        articleHeader.style.backgroundPosition = `0 -${backgroundMove}%`;
-        articleAuthor.style.backgroundPosition = `0 -${backgroundMove}%`;
+      if (opacityValue > "1") {
+        articleTitleText.style.opacity = 1;
+      } else if (opacityValue < "0") {
+        articleTitleText.style.opacity = 0;
       }
+
+      articleTitleText.style.opacity = opacityValue;
+      articleTitleText.style.transform = `translateY(${currentScroll / 3}px)`;
+
+      if (articleExternalLink) {
+        articleExternalLink.style.opacity = opacityValue;
+      }
+
+      articleHeader.style.backgroundPosition = `0 -${backgroundMove}%`;
+      articleAuthor.style.backgroundPosition = `0 -${backgroundMove}%`;
     });
+
+
+    {% include "assets/simplebar.min.js" %}
+
+    Array.prototype.forEach.call(
+      document.querySelectorAll('pre[class*=language-]'),
+      el => new SimpleBar(el, { autoHide: false })
+    );
   </script>
 {% endblock %}

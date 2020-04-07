@@ -3,21 +3,21 @@ const markdown = require("markdown-it")({
   html: true,
   breaks: true,
   linkify: true,
-  typographer: true
+  typographer: true,
 }).use(require("markdown-it-anchor"), {
   level: [2, 3],
-  permalink: false
+  permalink: false,
 });
 const { hostname } = require("./filters");
 
 module.exports = {
-  Figure: function({
+  Figure: function ({
     src,
     alt = "",
     caption = "",
     ratio = "16/9",
     breakout = false,
-    lazyload = false
+    lazyload = false,
   }) {
     const img = html`
       <figure>
@@ -42,12 +42,12 @@ module.exports = {
     `;
   },
 
-  Note: function({
+  Note: function ({
     label = "Note",
     text = "",
     type = "default",
     labelHidden = false,
-    link
+    link,
   }) {
     return html`
       <div class="c-note c-note--${type}">
@@ -63,12 +63,12 @@ module.exports = {
     `;
   },
 
-  Stats: function({ items = [] }) {
+  Stats: function ({ items = [] }) {
     return html`
       <dl class="c-stats">
         ${items
           .map(
-            item => `
+            (item) => `
           <dt class="c-stats__title">${item.title}</dt>
           <dd class="c-stats__description">${item.description}</dd>
         `
@@ -78,7 +78,7 @@ module.exports = {
     `;
   },
 
-  Video: function({
+  Video: function ({
     url = "",
     ratio = "16/9",
     controls = true,
@@ -86,7 +86,7 @@ module.exports = {
     loop = false,
     mute = true,
     caption = "",
-    backdrop = ""
+    backdrop = "",
   }) {
     return html`
       <figure class="c-video">
@@ -113,10 +113,10 @@ module.exports = {
     `;
   },
 
-  Youtube: function(id, lazyload = false, fullWidth = false) {
+  Youtube: function (id, lazyload = false, breakout = false) {
     return html`
-      <figure class="u-shadow${
-        fullWidth ? " o-content__fullWidth" : ""
+      <figure class="${
+        breakout ? " u-breakout" : ""
       }" style="--aspect-ratio: 16/9;">
         <iframe${
           lazyload ? ` loading="lazy"` : ""
@@ -125,7 +125,7 @@ module.exports = {
     `;
   },
 
-  Quote: function({ text, cite, size }) {
+  Quote: function ({ text, cite, size }) {
     return html`
       <figure class="c-quote">
         <blockquote
@@ -142,7 +142,7 @@ module.exports = {
     `;
   },
 
-  Link: function(url, text, external = false) {
+  Link: function (url, text, external = false) {
     return html`
       <a href="${url}" class="u-link" ${external ? 'rel="external"' : ""}>
         ${text ? text : hostname(url)}
@@ -153,13 +153,13 @@ module.exports = {
     `;
   },
 
-  Heading: function({
+  Heading: function ({
     as = "h2",
     text = "",
     size = "md",
     link = null,
     prepend = null,
-    append = null
+    append = null,
   }) {
     return html`
       <${as} class="u-font-size-${size}">
@@ -174,14 +174,10 @@ module.exports = {
     `;
   },
 
-  Pill: function(str, url) {
+  Pill: function (str, url) {
     if (url) {
-      return html`
-        <a class="c-pill" href="${url}">${str}</a>
-      `;
+      return html` <a class="c-pill" href="${url}">${str}</a> `;
     }
-    return html`
-      <span class="c-pill">${str}</span>
-    `;
-  }
+    return html` <span class="c-pill">${str}</span> `;
+  },
 };

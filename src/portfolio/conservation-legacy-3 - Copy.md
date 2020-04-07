@@ -1,6 +1,6 @@
 ---
 order: 2
-title: "Conservation Legacy 1"
+title: "Conservation Legacy in the Midwest 3"
 team: "Mighty in the Midwest"
 summary: "Led the development of a platform of websites for Conservation Legacy, an organization that supports local conservation services across the US."
 year: "2017"
@@ -13,8 +13,8 @@ tech:
 link: "https://conservationlegacy.org"
 banner: "conservation-legacy.png"
 primaryColor: "#C46C27"
-category: recent
-thumb: "/assets/images/portfolio/s-004.jpg"
+category: js
+thumb: "/assets/images/portfolio/s-005.png"
 links:
   - live: "https://hosna.netlify.com/works/"
   - code: "#code"

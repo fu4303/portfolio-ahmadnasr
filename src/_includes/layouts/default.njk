@@ -45,7 +45,7 @@
 
   <noscript>
     <style>
-      [data-simplebar] {
+      [data-simplebar], .c-projects__body {
         overflow: auto;
       }
     </style>
@@ -69,7 +69,9 @@
   {% set js %}
     {% include "assets/app.js" %}
   {% endset %}
+
   {% block scripts %}{% endblock %}
+
   <script>
     {{ js | jsmin | safe }}
   </script>

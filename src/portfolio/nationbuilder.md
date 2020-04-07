@@ -15,8 +15,9 @@ link: "https://nationbuilder.com"
 banner: "nationbuilder.png"
 primaryColor: "#D0021B"
 category: sandbox
-tags:
-  - css
+thumb: "/assets/images/portfolio/s-002.jpg"
+links:
+  - live: "https://hosna.netlify.com/works/"
 ---
 With the recent launch of the [new control panel](https://nationbuilder.com/new_control_panel), I worked closely with the design team to help reimagine the homepage. With a few small design sprints, we had an idea about the design direction we wanted to go and I started digging into how I could breathe some life into the design with the use of animations.
 

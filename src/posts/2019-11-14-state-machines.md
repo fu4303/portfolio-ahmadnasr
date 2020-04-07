@@ -11,24 +11,53 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 2. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking.
 3. Leverage agile frameworks to provide a robust.
 
+- Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+- Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking.
+- Leverage agile frameworks to provide a robust.
+
 {% Quote {
-  text: 'Quote text',
+  text: 'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
   cite: 'Max Böck, [On Simplicity](https://mxb.dev/blog/on-simplicity/)'
 } %}
 
 Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 {% Figure {
-  src: '/static/img/immgg.jpg',
+  src: '/assets/images/frankie.jpg',
   alt: 'Alt text',
-  caption: 'Caption text'
+  caption: 'Caption text',
+  breakout: true
 } %}
 
 ## 3 Important things about CSS
 
 Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to _corporate_ strategy foster collaborative thinking to further the overall value proposition. Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
 
-{% Youtube "GV9yHrQ293U" %}
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.
+
+### 3 Important things about CSS
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
+
+#### 3 Important things about CSS
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
+
+{% Youtube "GV9yHrQ293U", false, true %}
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
+
+Leverage agile [frameworks](#) to provide a robust synopsis for high level overviews. **Iterative** approaches to corporate strategy foster collaborative.
 
 ***
 

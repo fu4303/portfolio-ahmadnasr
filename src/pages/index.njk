@@ -97,7 +97,7 @@ scope: s-index
       {% endfor %}
     </ul>
 
-    <a href="/posts" class="c-button c-button--md c-button--secondary">
+    <a href="/portfolio" class="c-button c-button--md c-button--secondary">
       View full portfolio
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="1em" height="1em" aria-hidden="true" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
       <span class="u-hidden-visually">Portfolio</span>
@@ -106,10 +106,10 @@ scope: s-index
   </section>
 {% endblock %}
 
-
 {% block scripts %}
-  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
   <script>
+    {% include "assets/simplebar.min.js" %}
+
     new SimpleBar(document.querySelector(".c-section--popular ol"), {
       autoHide: false,
     });

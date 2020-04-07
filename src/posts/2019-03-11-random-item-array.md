@@ -7,7 +7,7 @@ The other week I was working on a [side project](https://github.com/alexcarpente
 
 To do this, I first created a function that returns a random item from an array.
 
-```js
+```javascript
 function randomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -19,7 +19,7 @@ To fix that issue, I made use of a `do...while` loop to call the `randomItem` fu
 
 So while `prevItem` is equal to `currentItem`, run the `randomItem` function.
 
-```js/5-8
+```javascript/5-8
 var fruit = ['Apples', 'Oranges', 'Pears'];
 
 var currentItem = randomItem(fruit);

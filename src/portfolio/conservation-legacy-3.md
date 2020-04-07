@@ -8,14 +8,17 @@ roles:
   - "Front-end development"
   - "CraftCMS development"
 tech:
-  - "CraftCMS"
+  - "PostCSS"
   - "Webpack"
+  - "VanillaJS"
 link: "https://conservationlegacy.org"
 banner: "conservation-legacy.png"
 primaryColor: "#C46C27"
 category: js
-tags:
-  - js
+thumb: "/assets/images/portfolio/s-005.png"
+links:
+  - live: "https://hosna.netlify.com/works/"
+  - code: "#code"
 ---
 Conservation Legacy is the third largest non-profit conservation corps program in the country. With eight seperate programs, Conservation Legacy needed a new website platform to showcase the work they do and move people to join their programs.
 

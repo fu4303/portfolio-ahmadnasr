@@ -150,8 +150,8 @@ pre[class*=language-] .simplebar-content {
   position: absolute;
   content: '';
   border-radius: 6px;
-  left: 2px;
-  right: 2px;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: opacity 0.2s linear;
   background: #333;
@@ -162,7 +162,8 @@ pre[class*=language-] .simplebar-content {
   background: #444;
 }
 
-pre[class*=language-] .simplebar-scrollbar:before {
+pre[class*=language-] .simplebar-scrollbar:before,
+.c-projects .simplebar-scrollbar:before {
   border-radius: 0;
 }
 
@@ -179,25 +180,37 @@ pre[class*=language-css] .simplebar-scrollbar:before {
 }
 .simplebar-scrollbar.simplebar-visible:before {
   /* When hovered, remove all transitions from drag handle */
-  transition: opacity 0s linear;
-}
-
-.c-section--popular ol .simplebar-scrollbar.simplebar-visible:before {
-  opacity: .85;
-}
-
-pre[class*=language-] .simplebar-scrollbar.simplebar-visible:before {
   opacity: 1;
+  transition: opacity 0s linear;
 }
 
 .simplebar-track.simplebar-vertical {
   top: 0;
   width: 11px;
+  background: transparent;
+}
+
+.c-projects .simplebar-track.simplebar-vertical {
+  width: 6px;
+  right: -6px;
 }
 
 .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
-  top: 2px;
-  bottom: 2px;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.c-projects.c-projects--sandbox .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background: #81a6e0;
+}
+
+.c-projects.c-projects--javascript .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background: #5aab96;
+}
+
+.c-projects.c-projects--recent .simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  background: #cc7bc5;
 }
 
 .simplebar-track.simplebar-horizontal {
