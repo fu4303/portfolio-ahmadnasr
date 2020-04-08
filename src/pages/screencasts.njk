@@ -1,15 +1,17 @@
 ---
 title: Screencasts
-summary: "Short video tutorials for front-end web developers released every week. Subscribe on [YouTube](https://www.youtube.com/channel/UC2jJoQlzvLPvnYfowAEVaOg?sub_confirmation=1)."
+summary: "summary."
 pagination:
   data: collections.screencasts
   size: 10
 permalink: /screencasts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}index.html
 ---
+
 {% extends 'layouts/page.njk' %}
+{#
 {% from "components/testimonial.njk" import testimonial %}
 
-{# {% block headerExtra %}
+{% block headerExtra %}
   {% if pagination.pageNumber == 0 %}
   <dl class="c-meta c-meta--stats">
     <dt class="c-meta__title">{{ collections.screencasts | length }}</dt>
@@ -20,7 +22,7 @@ permalink: /screencasts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pag
     <dd class="c-meta__description">YouTube subscribers</dd>
   </dl>
   {% endif %}
-{% endblock %} #}
+{% endblock %}
 
 {% block content %}
   {% if pagination.pageNumber == 0 %}
@@ -49,3 +51,6 @@ permalink: /screencasts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pag
   {% include "components/pagination.njk" %}
   </div>
 {% endblock %}
+
+
+#}

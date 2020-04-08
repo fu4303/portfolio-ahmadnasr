@@ -10,24 +10,23 @@ pagination:
     - posts
     - screencasts
 permalink: /tagged/{{ tag }}/index.html
+scope: s-tagged
 ---
-{% extends "layouts/default.njk" %}
+{% extends "layouts/page.njk" %}
 
 {% block header %}
-  <header class="u-margin-bottom-3">
-    <h1 class="u-font-size-xxl">Tagged “{{ tag }}”</h1>
-  </header>
+  <section class="c-section c-section--intro">
+    <h1 class="c-section__page-title">Tagged “{{ tag }}”</h1>
+  </section>
 {% endblock %}
 
 {% block content %}
-  <div class="o-content">
-    {% set taglist = collections[tag] %}
-    <ul class="c-listing">
+  {% set taglist = collections[tag] %}
+    <ul class="c-listing o-list--bare">
     {% for entry in taglist | reverse %}
       <li class="c-listing__item">
         <a href="{{ entry.url }}">{{ entry.data.title }}</a>
       </li>
     {% endfor %}
     </ul>
-  </div>
 {% endblock %}
