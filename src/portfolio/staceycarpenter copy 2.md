@@ -16,7 +16,7 @@ link: "https://staceycarpenter.me"
 banner: ""
 primaryColor: "#6c8067"
 category: sandbox
-thumb: "/assets/images/portfolio/s-001.jpg"
+thumb: "/assets/images/portfolio/s-001.png"
 links:
   - live: "https://hosna.netlify.com/works/"
   - code: "#code"

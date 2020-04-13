@@ -30,8 +30,12 @@
     {% include "assets/app.css" %}
     {% include "assets/prism.css" %}
     {% include "assets/simplebar.css" %}
-    {% if primaryColor %}
-      :root { --color-primary: {{ primaryColor }}; }
+    {% if primaryColorH %}
+      :root {
+        --color-primary-h: {{ primaryColorH }};
+        --color-tertiary-h: calc(var(--color-primary-h) + 180);
+      }
+
     {% endif %}
   {% endset %}
 

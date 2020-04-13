@@ -14,7 +14,7 @@ link: "https://conservationlegacy.org"
 banner: "conservation-legacy.png"
 primaryColor: "#C46C27"
 category: js
-thumb: "/assets/images/portfolio/s-006.jpg"
+thumb: "/assets/images/portfolio/js-003.png"
 links:
   - live: "https://hosna.netlify.com/works/"
   - code: "#code"

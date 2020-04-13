@@ -13,9 +13,8 @@ tech:
   - "VanillaJS"
 link: "https://conservationlegacy.org"
 banner: "conservation-legacy.png"
-primaryColor: "#C46C27"
 category: js
-thumb: "/assets/images/portfolio/s-005.png"
+thumb: "/assets/images/portfolio/js-001.png"
 links:
   - live: "https://hosna.netlify.com/works/"
   - code: "#code"
@@ -24,14 +23,14 @@ Conservation Legacy is the third largest non-profit conservation corps program i
 
 I worked closely with our team lead to define and lead the development of the platform based on work we had previously done for [Herman Miller certified dealers](http://mightyinthemidwest.com/work/herman-miller-dealer-platform).
 
-## Flexible templating and navigation
+### Flexible templating and navigation
 
 One of the biggest issues the team was experiencing with their previous website was the inability to create and manage content easily. We worked with the team to define a set of "modules" they could use to build out pages using [matrix fields](https://www.youtube.com/watch?v=VSXglzqJ2Z4).
 
 
 Each programs needs were different in terms of pages needed. We built a fully customizable navigation setup that allowed each program to add, remove, and reorder pages as needed.
 
-## Themeing
+### Themeing
 
 {% Figure {
   src: '/assets/images/conservation-legacy-azcorps.jpg',
@@ -43,7 +42,7 @@ Each programs needs were different in terms of pages needed. We built a fully cu
 
 Each site needed to be easily themeable. Choosing to stick to two color variable options, we created a Sass file for each program and defined the primary and secondary color variables before importing the master Sass file.
 
-```scss
+```css
 /* src/styles/conservation-legacy.scss */
 
 $primary-color: #4f4c08;
