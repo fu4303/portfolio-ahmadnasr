@@ -11,12 +11,8 @@ scope: s-portfolio
     <div class="c-projects c-projects--sandbox">
       <header class="c-projects__header">
         <h2>
-          <span class="c-projects__title">daily practice</span>
-          <span class="c-projects__subtitle">
-            since
-            <strong id="js-daysCount"></strong>
-            days
-          </span>
+          <span class="c-projects__title">frontend sandbox</span>
+          <span class="c-projects__subtitle">daily practice</span>
         </h2>
       </header>
       <ol class="c-projects__body js-counts">
@@ -84,8 +80,8 @@ scope: s-portfolio
       );
     });
 
-    const sandbox = document.querySelector(".c-projects--sandbox").querySelectorAll("li");
-    document.getElementById('js-daysCount').innerText = sandbox.length;
+    //const sandbox = document.querySelector(".c-projects--sandbox").querySelectorAll("li");
+    //document.getElementById('js-daysCount').innerText = sandbox.length;
 
     {% include "assets/simplebar.min.js" %}
 

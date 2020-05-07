@@ -1,7 +1,7 @@
 {
     "url": "https://ahmedhosna.me",
     "title": "Ahmed Hosna",
-    "description": "Self taught Front-end web developer from Egypt. I make things for web.",
+    "description": "Self taught Front-end web developer from Egypt. I make things for the web.",
     "navigation": [{
         "label": "Articles",
         "url": "/posts/"

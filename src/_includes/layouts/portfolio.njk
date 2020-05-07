@@ -3,18 +3,21 @@
 {% block content %}
   <article class="c-article c-article--portfolio">
     <header class="c-article__header u-stack u-text-center">
-      <span>Case Study</span>
+      <span>Project Overview</span>
       <h1 class="u-font-size-xxl">{{ title }}</h1>
       {% if link %}
-      {% Link link, null, true %}
+        {% Link link, null, true %}
       {% endif %}
       <p class="u-font-size-md">{{ summary | safe }}</p>
       {% if banner %}
-        {% Figure {
-          breakout: true,
-          src: '/assets/images/' + banner,
-          alt: title + ' graphics'
-        } %}
+        <figure>
+          <div class="u-breakout">
+            <img
+              src="/assets/images/portfolio/{{ banner }}"
+              alt="{{ title }}graphics"
+            >
+          </div>
+        </figure>
       {% endif %}
     </header>
     <section class="c-article__content u-stack--4 u-stack--post">

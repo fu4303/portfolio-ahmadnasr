@@ -5,7 +5,7 @@
 
       <div class="c-project__thumb">
         <a href="{{ entry.url }}">
-          <img src="{{ entry.data.thumb }}" alt="{{ entry.data.title }}" title="{{ entry.data.title }}">
+          <img src="/assets/images/portfolio/{{ entry.data.thumb }}" alt="{{ entry.data.title }}" title="{{ entry.data.title }}">
         </a>
       </div>
 
@@ -31,7 +31,7 @@
           <div class="c-project__links">
             {% for item in entry.data.links -%}
               {% if item.live %}
-                <a href="{{ item.live }}" target="_blank">Live Preview</a>
+                <a href="{{ item.live }}" target="_blank">Live preview</a>
               {% endif %}
               {% if item.code %}
                 <a href="{{ item.code }}" target="_blank">Source files</a>
