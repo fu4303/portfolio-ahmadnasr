@@ -2021,7 +2021,7 @@ a.c-pill:hover:after {
   }
 }
 
-@media (min-width: 72.125em) and  (max-width: 75.25em){
+@media (min-width: 72.125em) and (max-width: 75.25em) {
   .c-projects__body .c-project::before {
     right: initial;
     left: 0;
@@ -2537,6 +2537,24 @@ a.c-pill:hover:after {
 .s-index .c-section p a:not([class]) {
   font-weight: 500;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.s-index .c-section--intro p:nth-last-of-type(2) {
+  line-height: 2.2;
+}
+
+.s-index .c-section--intro p:nth-last-of-type(2) a:not([class]) {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 0.2em 0.5em 0.15em;
+  border-radius: 4px;
+  font-size: 17px;
+  transition: all 150ms ease;
+}
+
+.s-index .c-section--intro p:nth-last-of-type(2) a:not([class]):hover {
+  color: #3e3e3e;
+  border-color: currentColor;
+  background: #fff;
 }
 
 @media (min-width: 48em) {
