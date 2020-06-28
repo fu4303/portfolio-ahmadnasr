@@ -3,7 +3,7 @@ title: "Writescape (MERN)"
 team: "Ahmed Hosna"
 summary: "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more."
 year: "2020"
-banner: "js-001-banner.png"
+banner: "/writescape-screenshots/writescape-banner.png"
 roles:
   - "Front-end development"
   - "Back-end development"
@@ -16,12 +16,13 @@ tech:
 link: "https://writescape.netlify.app/"
 # banner: ""
 category: recent
-thumb: "js-001.png"
+thumb: "recent-001.png"
 links:
   - live: "https://writescape.netlify.app/"
   - code: "https://github.com/ahmedhosna95/writescape-mern"
 scope: "s-portfolio-item"
 ---
+<hr class="u-line-divider"/>
 
 Writescape is a modern full-stack single-page app (SPA) hosted and deployed on [Netlify](https://writescape.netlify.app). Both the front-end and back-end are built in JavaScript. Here is the breakdown of what was used to build it:
 
@@ -43,6 +44,8 @@ Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern)
   - PostCSS
   - stylelint
 
+<hr class="u-line-divider"/>
+
 #### Application Features
 
   - The application lets any user browse the articles that have been uploaded by other authenticated users.
@@ -52,48 +55,93 @@ Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern)
   - Authenticated users can use live search feature in the top menu bar to find content written by other authenticated users with similar interests and then follow them..
   - Authenticated users can browse the latest posts from the people they follow in the home page.
   - Authenticated users can use the live chat feature and start talking to any other logged in users, and get notification in the top menu bar on the chat icon.
+  - Client-side & Server-side validation for login, register and create/edit form.
+  - Users can write and edit their posts using Markdown syntax.
 
-#### Screenshots
+<hr class="u-line-divider"/>
 
-<mark>Writescape home guest</mark>
+### Screenshots
+
+##### # Writescape home guest
 [![Writescape home guest](/assets/images/portfolio/writescape-screenshots/writescape-home-guest.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-guest.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape home page (empty feed page)
+[![Writescape home page (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape home page (user has non-empty following list)
+[![Writescape home page (user was logged in)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape Login Page
+[![Writescape Login Page](/assets/images/portfolio/writescape-screenshots/writescape-login-page.png)](/assets/images/portfolio/writescape-screenshots/writescape-login-page.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape Register Page
+[![Writescape Register Page](/assets/images/portfolio/writescape-screenshots/writescape-register-page.png)](/assets/images/portfolio/writescape-screenshots/writescape-register-page.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape Create Post Page
+[![Writescape Create Post Page](/assets/images/portfolio/writescape-screenshots/writescape-createpost-page.png)](/assets/images/portfolio/writescape-screenshots/writescape-createpost-page.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape Edit Post Page
+[![Writescape Edit Post Page](/assets/images/portfolio/writescape-screenshots/writescape-editpost-page.png)](/assets/images/portfolio/writescape-screenshots/writescape-editpost-page.png)
 
----
+<hr class="u-line-divider"/>
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+##### # Writescape Edit Post Validation
+[![Writescape Edit Post Page](/assets/images/portfolio/writescape-screenshots/writescape-editpost.gif)](/assets/images/portfolio/writescape-screenshots/writescape-editpost.gif)
 
----
 
-<mark>Writescape home (empty feed page)</mark>
-[![Writescape home (empty feed page)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-user-loggedin-emptyfeed.png)
+<hr class="u-line-divider"/>
+
+##### # Writescape Profile Posts Screen
+[![Writescape Profile Posts Screen](/assets/images/portfolio/writescape-screenshots/writescape-profile-posts.png)](/assets/images/portfolio/writescape-screenshots/writescape-profile-posts.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Profile Followers Screen
+[![Writescape Profile Followers Screen](/assets/images/portfolio/writescape-screenshots/writescape-profile-followers.png)](/assets/images/portfolio/writescape-screenshots/writescape-profile-followers.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Profile Followers (empty list)
+[![Writescape Profile Followers (empty list)](/assets/images/portfolio/writescape-screenshots/writescape-profile-followers-empty.png)](/assets/images/portfolio/writescape-screenshots/writescape-profile-followers-empty.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Single Post Screen
+[![Writescape Single Post Screen](/assets/images/portfolio/writescape-screenshots/writescape-single-post.png)](/assets/images/portfolio/writescape-screenshots/writescape-single-post.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Single Post Screen (post owner)
+[![Writescape Single Post Screen (post owner)](/assets/images/portfolio/writescape-screenshots/writescape-single-post-owner.png)](/assets/images/portfolio/writescape-screenshots/writescape-single-post-owner.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape 404 Page
+[![Writescape 404 Page](/assets/images/portfolio/writescape-screenshots/writescape-404-page.png)](/assets/images/portfolio/writescape-screenshots/writescape-404-page.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Live Search Overlay
+[![Writescape Live Search Overlay](/assets/images/portfolio/writescape-screenshots/writescape-live-search-overlay.png)](/assets/images/portfolio/writescape-screenshots/writescape-live-search-overlay.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Live Search Overlay (with scrollbar)
+[![Writescape Live Search Overlay (with scrollbar)](/assets/images/portfolio/writescape-screenshots/writescape-live-search-overlay-scroll.png)](/assets/images/portfolio/writescape-screenshots/writescape-live-search-overlay-scroll.png)
+
+<hr class="u-line-divider"/>
+
+##### # Writescape Live Chat - With notification in the top menu bar
+[![Writescape Live Chat - With notification in the top menu bar](/assets/images/portfolio/writescape-screenshots/writescape-chat.gif)](/assets/images/portfolio/writescape-screenshots/writescape-chat.gif)
