@@ -62,7 +62,7 @@ Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern)
 
 ### Screenshots
 
-##### # Writescape home guest
+##### # Writescape home page (guest)
 [![Writescape home guest](/assets/images/portfolio/writescape-screenshots/writescape-home-guest.png)](/assets/images/portfolio/writescape-screenshots/writescape-home-guest.png)
 
 <hr class="u-line-divider"/>
