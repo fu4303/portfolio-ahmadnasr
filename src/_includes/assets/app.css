@@ -82,12 +82,6 @@ html {
   box-sizing: border-box;
 }
 
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -109,6 +103,12 @@ body {
   text-rendering: optimizeLegibility;
   color: #fff;
   overflow-x: hidden;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 @media (min-width: 36em) {
@@ -172,9 +172,10 @@ dt {
 }
 
 mark {
-  padding-left: 0.2em;
-  padding-right: 0.2em;
-  background-color: var(--color-yellow-light);
+  background-color: var(--color-secondary);
+  color: #fff;
+  padding: .05em .5em .15em;
+  font-weight: 300;
 }
 
 ul ul {
@@ -182,18 +183,19 @@ ul ul {
 }
 
 ul:not([class]) {
-  padding-left: 1.8rem;
+  padding-left: 1.7rem;
 }
 
 @media (min-width: 48em) {
   ul:not([class]) {
-    padding-left: 2.8rem;
+    padding-left: 2.2rem;
   }
 }
 
 hr {
   border: 0;
-  height: 0;
+  height: 1px;
+  background: #eee;
 }
 
 table {
@@ -375,6 +377,77 @@ kbd {
   .s-bookmarks .o-layout,
   .s-posts .o-layout {
     grid-column-gap: calc(var(--layout-gap) * 2);
+  }
+}
+
+/* Portfolio Item Layout */
+
+.s-portfolio-item {
+  --font-family-plain: "Jost", system-ui, san-serif;
+  --font-family-special: "Jost", system-ui, san-serif;
+  font-family: var(--font-family-plain);
+}
+
+.s-portfolio-item .c-article__header span:first-child {
+  font-size: 22px;
+}
+
+.s-portfolio-item .c-article__header a:first-of-type {
+  letter-spacing: 0.02em;
+  font-size: 17px;
+  padding: 2px 15px 3px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #fff;
+  transition: all 250ms ease;
+}
+
+.s-portfolio-item .c-article__header a:first-of-type:hover {
+  background: #333;
+  color: #fff;
+  border-color: #333333;
+}
+
+.s-portfolio-item .c-article__header p:first-of-type {
+  margin-top: 2rem !important;
+  letter-spacing: .014em;
+}
+
+.s-portfolio-item .c-article__header figure {
+  margin-top: 3rem !important;
+}
+
+.s-portfolio-item .c-article__header figure img {
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 8px 16px hsla(0, 0%, 0%, .15);
+}
+
+.s-portfolio-item .c-article__content {
+  letter-spacing: 0.014em;
+  font-weight: 400;
+}
+
+.s-portfolio-item .c-article__content h4 {
+  font-weight: 700;
+}
+
+.s-portfolio-item .u-stack--post > * + h2,
+.s-portfolio-item blockquote > * + h2,
+.s-portfolio-item .u-stack--post > * + h3,
+.s-portfolio-item blockquote > * + h3,
+.s-portfolio-item .u-stack--post > * + h4,
+.s-portfolio-item blockquote > * + h4 {
+  margin-top: 4rem;
+}
+
+@media (min-width: 48em) {
+  .s-portfolio-item .u-stack--post > * + h2,
+  .s-portfolio-item blockquote > * + h2,
+  .s-portfolio-item .u-stack--post > * + h3,
+  .s-portfolio-item blockquote > * + h3,
+  .s-portfolio-item .u-stack--post > * + h4,
+  .s-portfolio-item blockquote > * + h4 {
+    margin-top: 5rem;
   }
 }
 
@@ -1689,13 +1762,13 @@ a.c-pill:hover:after {
   .c-article__content ol li,
   .c-article__content ul li {
     line-height: 1.7;
-    padding-left: 3.5rem;
+    padding-left: 3rem;
   }
 }
 
 .c-article__content ol li:not(:last-child),
 .c-article__content ul li:not(:last-child) {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .c-article__content ol li::before,
@@ -2723,11 +2796,17 @@ blockquote > p + p {
 }
 
 .u-stack--post > h2 + p,
+.u-stack--post > h2 + ul,
 blockquote > h2 + p,
 .u-stack--post > h3 + p,
+.u-stack--post > h3 + ul,
 blockquote > h3 + p,
 .u-stack--post > h4 + p,
-blockquote > h4 + p {
+.u-stack--post > h4 + ul,
+blockquote > h4 + p,
+.u-stack--post > h5 + p,
+.u-stack--post > h5 + ul,
+blockquote > h5 + p {
   margin-top: 1.4rem;
 }
 
@@ -2765,12 +2844,18 @@ blockquote > * + h4 {
   }
 
   .u-stack--post > h2 + p,
+  .u-stack--post > h2 + ul,
   blockquote > h2 + p,
   .u-stack--post > h3 + p,
+  .u-stack--post > h3 + ul,
   blockquote > h3 + p,
   .u-stack--post > h4 + p,
-  blockquote > h4 + p {
-    margin-top: 1.65rem;
+  .u-stack--post > h4 + ul,
+  blockquote > h4 + p,
+  .u-stack--post > h5 + p,
+  .u-stack--post > h5 + ul,
+  blockquote > h5 + p {
+    margin-top: 1.90rem;
   }
 
   .u-stack--post > * + h2,

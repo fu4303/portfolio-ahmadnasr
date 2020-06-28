@@ -3,12 +3,12 @@
 {% block content %}
   <article class="c-article c-article--portfolio">
     <header class="c-article__header u-stack u-text-center">
-      <span>Project Overview</span>
+      <span>Case Study</span>
       <h1 class="u-font-size-xxl">{{ title }}</h1>
       {% if link %}
         {% Link link, null, true %}
       {% endif %}
-      <p class="u-font-size-md">{{ summary | safe }}</p>
+      <p>{{ summary | safe }}</p>
       {% if banner %}
         <figure>
           <div class="u-breakout">
