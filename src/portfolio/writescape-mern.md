@@ -40,7 +40,7 @@ Back-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-backen
 Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern).
 
 #### Project Process Workflow:
-  - Webpack
+  - NPM Scripts + Webpack
   - PostCSS
   - stylelint
 
