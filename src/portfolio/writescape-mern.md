@@ -48,7 +48,7 @@ Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern)
 
 #### Application Features
 
-  - The application lets any user browse the articles that have been uploaded by other authenticated users.
+  - The application lets any user browse the articles that have been written by other authenticated users.
   - Any user can view profiles of the authenticated users.
   - Authenticated users can follow and unfollow each other.
   - Authenticated users can create posts, edit and delete their posts.
