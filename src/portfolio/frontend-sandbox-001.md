@@ -14,7 +14,7 @@ link: "https://codepen.io/ahmedhosna95/full/KKpvNGY"
 banner: ""
 primaryColor: "#6c8067"
 category: sandbox
-thumb: "css-002.png"
+thumb: "s-001.png"
 links:
   - live: "https://codepen.io/ahmedhosna95/full/KKpvNGY"
   - code: "https://codepen.io/ahmedhosna95/pen/KKpvNGY"
