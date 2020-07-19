@@ -1,4 +1,5 @@
 ---
+order: 1
 title: "Writescape (MERN)"
 team: "Ahmed Hosna"
 summary: "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more."

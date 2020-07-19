@@ -417,10 +417,6 @@ kbd {
   margin-top: 3rem !important;
 }
 
-.s-portfolio-item .c-article__header figure img {
-  border-radius: 20px 20px 0 0;
-  box-shadow: 0 8px 16px hsla(0, 0%, 0%, .15);
-}
 
 .s-portfolio-item .c-article__content {
   letter-spacing: 0.014em;
@@ -2052,17 +2048,23 @@ a.c-pill:hover:after {
   border: 6px solid;
 }
 
+.c-projects__body .simplebar-content{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .c-projects__body .c-project {
   background: #eee;
   overflow: hidden;
   position: relative;
   display: flex;
-  counter-increment: counts -1;
   max-height: 111px;
+  border-bottom: 3px solid hsl(calc(var(--color-primary-h) + 3), 25%, 90%);
 }
 
 .c-projects__body .c-project::before {
-  content: counter(counts);
+  content: attr(data-year);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2106,10 +2108,6 @@ a.c-pill:hover:after {
     right: initial;
     left: 0;
   }
-}
-
-.c-projects__body .c-project:not(:last-child) {
-  border-bottom: 3px solid hsl(calc(var(--color-primary-h) + 3), 25%, 90%);
 }
 
 .c-projects__body .c-project__thumb {
@@ -2169,7 +2167,7 @@ a.c-pill:hover:after {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: inherit;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.06em;
 }
 
 .c-projects__body .c-project__title:hover {
