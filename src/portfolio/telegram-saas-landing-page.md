@@ -10,8 +10,8 @@ roles:
 
 tech:
   - "HTML5"
-  - "CSS3/SASS"
-  - "JS"
+  - "CSS3"
+  - "SASS"
   - "CSS Animation"
 link: "https://telegram-salah-elimam.netlify.app/"
 # banner: ""

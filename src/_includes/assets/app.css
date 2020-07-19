@@ -671,6 +671,10 @@ kbd {
 
 /* Portfolio Page Header */
 
+.s-portfolio .c-section__page-title{
+  color: #fff
+}
+
 @media (min-width: 48em) {
   .s-portfolio .p-header__nav-list:first-child {
     width: auto;
