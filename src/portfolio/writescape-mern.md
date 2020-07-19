@@ -10,10 +10,10 @@ roles:
   - "Back-end development"
 
 tech:
+  - "ReactJS"
+  - "NodeJS"
   - "MongoDB"
-  - "Express"
-  - "Node"
-  - "React"
+  - "ExpressJS"
 link: "https://writescape.netlify.app/"
 # banner: ""
 category: recent
