@@ -23,5 +23,5 @@ links:
 scope: "s-portfolio-item"
 ---
 
-UI Design by [Salah Elimam](https://dribbble.com/shots/5019211-Simple-To-Do-List-App-UI-Concent). I give thanks for him for letting me use the design for learning and training purposes.
+UI Design by [Salah Elimam](https://dribbble.com/shots/3936771-Telegram-Landing-Page/attachments/898122). I give thanks for him for letting me use the design for learning and training purposes.
 
