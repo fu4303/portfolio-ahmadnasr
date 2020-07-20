@@ -1035,8 +1035,8 @@ kbd {
 
 .c-avatar:after {
     content: "";
-    width: 260px;
-    height: 260px;
+    width: 127%;
+    height: 127%;
     display: block;
     position: absolute;
     top: -29px;
