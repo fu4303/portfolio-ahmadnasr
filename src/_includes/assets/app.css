@@ -947,9 +947,9 @@ kbd {
 }
 
 .c-hello > span {
-  font-size: 3rem;
-  line-height: 1.15;
   margin-right: 1.4rem;
+      display: flex;
+    align-items: center;
 }
 
 .c-hello__text h2 {
@@ -974,8 +974,7 @@ kbd {
   } */
 
   .c-hello > span {
-    font-size: 8.6rem;
-    margin-right: 1.6rem;
+    margin-right: 1.8rem;
   }
 
   .c-hello__text p {
@@ -2637,6 +2636,10 @@ a.c-pill:hover:after {
 }
 
 .s-index .c-section--intro > p {
+  margin-top: 3rem;
+}
+
+.s-index .c-section--intro > p:first-of-type {
   font-size: 17px;
   letter-spacing: -0.01em;
 }
