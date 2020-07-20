@@ -1,6 +1,6 @@
 ---
 order: 1
-title: "Writescape (MERN)"
+title: "Writescape (MERN Stack)"
 team: "Ahmed Hosna"
 summary: "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more."
 year: "2020"

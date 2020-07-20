@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 5
 title: "ClearViewEscapes Landing Page"
 team: "Ahmed Hosna"
 summary: "Responsive HTML landing page can help showcase services, applications or products. Built with Webpack, PostCSS and VanillaJS, Code Splitting and CSS Architecture (ITCSS, OOCSS, BEM)."

@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 8
 title: "InstantApp Landing Page"
 team: "Ahmed Hosna"
 summary: "Instant App is a landing page built with HTML5, CSS3 and SASS. UI Design by UICookies.. Developed and implemented into an interactive web page by me."

@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 title: "Frontend Daily Log"
 team: "Ahmed Hosna"
 summary: "A very simple static website I built from scratch with Pug.js, Webpack, VanillaJS and PostCSS, in order to write –on a daily basis– about everything I'm working on and learning."

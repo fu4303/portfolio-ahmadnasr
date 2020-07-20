@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 6
 title: "Travel Site Landing Page"
 team: "Ahmed Hosna"
 summary: "Responsive HTML landing page built with GulpJS, PostCSS and jQuery and Modular CSS."

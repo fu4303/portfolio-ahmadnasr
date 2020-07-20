@@ -1,6 +1,6 @@
 ---
 # order: 3
-title: "Services Section"
+title: "Services Section (Challenge)"
 summary: "My submission for 'Learn CSS Garden' challenge. March 2020"
 team: "Ahmed Hosna"
 year: "2020"
