@@ -39,30 +39,18 @@
     }, {
         "title": "react-todo-list-app",
         "url": "https://github.com/ahmedhosna95/simple-react-todo-list-app",
-        "description": "Crowd-sourced list of US coffee roasters",
+        "description": "Simple Todo list app built with React, Webpack and PostCSS. The data is all stored in the browser using the web storage object `localStorage`.",
         "language": "JavaScript"
     }, {
         "title": "clear-view-escapes-landing-page",
-        "url": "https://github.com/ahmedhosna95/travel-site-workflow-updated",
-        "description": "Crowd-sourced list of US coffee roasters",
+        "url": "https://github.com/ahmedhosna95/clear-view-escapes-landing-page",
+        "description": "Responsive HTML landing page can help showcase services, applications or products. Built with Webpack, PostCSS and VanillaJS, Code Splitting and CSS Architecture (ITCSS, OOCSS, BEM).",
         "language": "JavaScript"
     }, {
         "title": "writescape-mern",
         "url": "https://github.com/ahmedhosna95/writescape-mern",
         "description": "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more.",
         "language": "JavaScript"
-    }],
-    "interviews": [{
-        "title": "Show Me Your Mic",
-        "description": "Joined Chris Enns to talk about how I started the I Brew My Own Coffee Podcast, and the tools used to create the show.",
-        "url": "https://itunes.apple.com/us/podcast/alex-carpenter-show-me-your-coffee/id602836998?i=1000330208077&mt=2"
-    }, {
-        "title": "How to Hold a Pencil",
-        "description": "Reuben Ingber invited me to join him on his podcast Hold to Hold a Pencil to talk about my start in web development industry and being self-taught.",
-        "url": "https://itunes.apple.com/us/podcast/013-alex-carpenter/id738646287?i=1000264786894&mt=2"
-    }, {
-        "title": "Statamic Series",
-        "description": "Question and answer interview by Q Digital Studio about my experience building websites with the flat-file CMS Statamic.",
-        "url": "http://www.qdigitalstudio.com/library/statamic-series-alex-carpenter"
     }]
+
 }

@@ -672,7 +672,10 @@ kbd {
 /* Portfolio Page Header */
 
 .s-portfolio .c-section__page-title{
-  color: #fff
+  color: #fff;
+  font-family: var(--font-family-code-secondary);
+  font-weight: bold;
+  letter-spacing: -.06em;
 }
 
 @media (min-width: 48em) {
