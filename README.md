@@ -1,4 +1,5 @@
 # ahmedhosna.me
+Source files for my personal website. Built with Eleventy the static site generator, Vanilla JS and Vanilla CSS. Hosted on Netlify.
 
 ## Credits
 The UI of this website is redesigned by me, based on source files for Alex Carpenter's [personal website](https://github.com/alexcarpenter/alexcarpenter.me).
