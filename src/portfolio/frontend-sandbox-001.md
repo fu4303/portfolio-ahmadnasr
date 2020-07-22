@@ -18,4 +18,5 @@ thumb: "s-001.png"
 links:
   - live: "https://codepen.io/ahmedhosna95/full/KKpvNGY"
   - code: "https://codepen.io/ahmedhosna95/pen/KKpvNGY"
+scope: "s-portfolio-item"
 ---

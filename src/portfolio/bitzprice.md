@@ -12,7 +12,7 @@ tech:
   - "NextJS"
   - "ReactJS"
   - "Web API"
-  -""Bootstrap
+  - "Bootstrap"
 link: "https://next-bitzprice.vercel.app/"
 # banner: ""
 category: recent

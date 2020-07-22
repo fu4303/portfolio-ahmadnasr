@@ -1,6 +1,6 @@
 {% for entry in collections.portfolio %}
   {% if entry.data.category == "js" %}
-    <li class="c-project">
+    <li class="c-project" data-year="{{ entry.data.year }}" style="order: {{ entry.data.order }}">
       {% if entry.data.favorite %}<span>⭐️</span>{% endif %}
 
       <div class="c-project__thumb">
