@@ -1,7 +1,7 @@
 ---
 order: 2
 title: "Fancy animated rainbow border"
-summary: "This work has been featured in CodePen ♥"
+summary: "This work has been featured on CodePen ❤"
 team: "Ahmed Hosna"
 year: "2020"
 roles:
