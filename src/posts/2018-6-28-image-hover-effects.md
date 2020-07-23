@@ -8,8 +8,6 @@ scope: s-article
 thumbnail: "/assets/images/cards/hover-effects.png"
 ---
 
-[![Writescape home page (empty feed page)](/assets/images/cards/hover-effects.png)](/assets/images/cards/hover-effects.png)
-
 ## 1. The curious bear hover effect
 
 The overlay is based on bottom (0% height). Therefore, normally it has no height to appearance.
