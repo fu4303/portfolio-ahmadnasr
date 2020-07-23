@@ -5,6 +5,7 @@ tags:
   - CSS
   - CSS Animation
 scope: s-article
+thumbnail: "/assets/images/cards/hover-effects.png"
 ---
 
 [![Writescape home page (empty feed page)](/assets/images/cards/hover-effects.png)](/assets/images/cards/hover-effects.png)
