@@ -1,6 +1,6 @@
 ---
 order: 29
-title: "Company Profile"
+title: "Company Profile Tooltip"
 summary: "UI Design for a company profile tooltip"
 team: "Ahmed Hosna"
 year: "2018"
