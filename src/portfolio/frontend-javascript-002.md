@@ -10,7 +10,7 @@ tech:
   - "React"
   - "Redux"
   - "Create React App"
-link: "https://simple-react-todo-list.netlify.app/"
+link: "https://simple-counter-react-redux.netlify.app/"
 category: js
 thumb: "js-004.png"
 banner: "js-004-banner.png"
