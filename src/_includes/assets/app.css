@@ -670,7 +670,8 @@ kbd {
   display: none;
 }
 
-/* Portfolio Page Header */
+/* Portfolio Page  */
+
 
 .s-portfolio .c-section__page-title{
   color: #fff;
@@ -680,6 +681,9 @@ kbd {
 }
 
 @media (min-width: 48em) {
+  .s-portfolio .c-section__page-title + p {
+    font-weight: 350;
+  }
   .s-portfolio .p-header__nav-list:first-child {
     width: auto;
   }
@@ -2773,6 +2777,16 @@ a.c-pill:hover:after {
 
 @media (min-width: 48em) {
   .s-contact .c-section__page-title + p {
+    font-weight: 350;
+  }
+}
+
+/**
+ * Posts page
+ */
+
+@media (min-width: 48em) {
+  .s-posts .c-section__page-title + p {
     font-weight: 350;
   }
 }
