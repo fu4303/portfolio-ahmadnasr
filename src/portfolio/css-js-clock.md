@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 4
 title: "CSS + JS Clock"
 summary: "#JavaScript30"
 team: "Ahmed Hosna"

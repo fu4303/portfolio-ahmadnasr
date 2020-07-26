@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 5
 title: "Redux Counter Component"
 team: "Ahmed Hosna"
 summary: "Simple counter component built with React and Redux."
