@@ -1,7 +1,7 @@
 ---
-order: 13
+order: 7
 title: "Close modal from outside it"
-summary: "Close modal on click outside it or its special close button wit VanillaJS"
+summary: "Close modal on click outside it or its special close button with VanillaJS"
 team: "Ahmed Hosna"
 year: "2018"
 roles:
