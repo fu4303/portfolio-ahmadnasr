@@ -6,6 +6,7 @@ summary: "A modern full-stack single-page app (SPA) built with React, using mode
 year: "2020"
 banner: "/writescape-screenshots/writescape-banner.png"
 roles:
+  - "UI Design"
   - "Front-end development"
   - "Back-end development"
 
