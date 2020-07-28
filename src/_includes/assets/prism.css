@@ -47,8 +47,8 @@ code[class*=language-], pre[class*=language-] {
   font-family: var(--font-family-code-primary);
   font-size: 1.6rem;
   letter-spacing: 0;
+  direction: ltr !important;
 }
-
 
 @media (min-width: 48em) {
   code[class*=language-], pre[class*=language-] {
