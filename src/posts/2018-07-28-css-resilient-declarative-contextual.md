@@ -5,6 +5,7 @@ tags:
   - "css"
 scope: "s-article"
 lang: "ar"
+thumbnail: "/assets/images/cards/css-resilient-declarative-contextual.png"
 ---
 
 
@@ -101,4 +102,4 @@ lang: "ar"
 ## الخلاصة
 هذه الجوانب الثلاثة تجعل CSS لغة مختلفة عن باقي لغات البرمجة التلقليدية. وهذه الإختلافات يمكن أن تبدو غير مألوفة، لكنها تجعل من CSS لغة متينة وقوية. وفي ظني أن المطورين الذين يُعطون الإهتمام لتلك الأمور مُحاولين فهمها واستيعابها بشكل كامل؛ يُصبحوا مؤهلين لِأن يكونوا أكثر احترافية في استخدام CSS.
 
-ترجمة بتصرف لمقال :([Resilient, Declarative, Contextual](https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/)), للكاتب: [كيث ج. جرانت](https://twitter.com/keithjgrant)، بإذن مسبق منه.
+- ترجمة بتصرف لمقال :([Resilient, Declarative, Contextual](https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/)), للكاتب: [كيث ج. جرانت](https://twitter.com/keithjgrant)، بإذن مسبق منه.

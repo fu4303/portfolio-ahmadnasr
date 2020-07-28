@@ -1,4 +1,4 @@
-<li class="c-entry">
+<li class="c-entry" data-lang="{{ entry.data.lang }}">
   <time class="c-date">
     <span class="c-date__day">{{ (entry.date | date_formatted).substr(4, 2).replace(",", "") }}</span>
     <span class="c-date__month">{{ (entry.date | date_formatted).slice(0, 3) }}</span>

@@ -54,7 +54,7 @@ scope: s-index
     <p class="u-line-decorate">My ramblings in front-end development.</p>
     <ol class="o-list--bare" style="counter-reset: counts 8">
       {% for post in collections.posts | favorites(7) %}
-        <li class="c-entry">
+        <li class="c-entry" data-lang="{{ post.data.lang }}">
           {% if post.data.favorite %}
             <span class="c-entry__favorite-icon">⭐️ </span>
           {% endif %}
