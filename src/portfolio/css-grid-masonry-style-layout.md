@@ -2,7 +2,7 @@
 order: 8
 title: "CSS Grid Responsive Image Gallery"
 summary: "CSS Grid masonry style layout with no media query or libraries."
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2018"
 roles:
   - "UI development"
@@ -10,13 +10,13 @@ tech:
   - "HTML5"
   - "CSS3/SASS"
   - "CSS Grid Layout"
-link: "https://codepen.io/ahmedhosna95/full/NYodpR"
+link: "https://codepen.io/ahmadnasr/full/NYodpR"
 category: sandbox
 thumb: "s-018.png"
 banner: "/css-grid-masonry-style-layout-banner.png"
 links:
-  - live: "https://codepen.io/ahmedhosna95/full/NYodpR"
-  - code: "https://codepen.io/ahmedhosna95/pen/NYodpR"
+  - live: "https://codepen.io/ahmadnasr/full/NYodpR"
+  - code: "https://codepen.io/ahmadnasr/pen/NYodpR"
 scope: "s-portfolio-item"
 ---
 

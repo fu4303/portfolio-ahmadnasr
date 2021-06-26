@@ -1,7 +1,7 @@
 {
-    "url": "https://ahmedhosna.netlify.com",
-    "title": "Ahmed Hosna",
-    "description": "Self taught Front-end web developer from Egypt. I make things for the web.",
+    "url": "https://ahmadnasr.net",
+    "title": "Ahmad Nasr",
+    "description": "Self taught Front-End Developer from Egypt. I make things for the web.",
     "navigation": [{
         "label": "Articles",
         "url": "/posts/"
@@ -17,38 +17,38 @@
     }],
     "social": [{
         "label": "Twitter",
-        "url": "https://twitter.com/ahmedhosna95"
+        "url": "https://twitter.com/ahmadnasrhosna"
     }, {
         "label": "Github",
-        "url": "https://github.com/ahmedhosna95"
+        "url": "https://github.com/ahmadnasrhosna"
     }, {
         "label": "Codepen",
-        "url": "https://codepen.io/ahmedhosna95"
+        "url": "https://codepen.io/ahmadnasr"
     }, {
         "label": "Dribbble",
-        "url": "https://dribbble.com/ahmedhosna95"
+        "url": "https://dribbble.com/ahmadnasrhosna"
     }, {
         "label": "Linkedin",
-        "url": "https://www.linkedin.com/in/ahmedhosna95"
+        "url": "https://www.linkedin.com/in/ahmadnasrhosna"
     }],
     "projects": [{
-        "title": "ahmedhosna.me",
-        "url": "https://github.com/ahmedhosna95/ahmedhosna.me",
+        "title": "ahmadnasr.net",
+        "url": "https://github.com/ahmadnasrhosna/ahmadnasr.net",
         "description": "Source files for my personal website built with Eleventy and hosted with Netlify.",
         "language": "HTML"
     }, {
         "title": "react-todo-list-app",
-        "url": "https://github.com/ahmedhosna95/simple-react-todo-list-app",
+        "url": "https://github.com/ahmadnasrhosna/simple-react-todo-list-app",
         "description": "Simple Todo list app built with React, Webpack and PostCSS. The data is all stored in the browser using the web storage object `localStorage`.",
         "language": "JavaScript"
     }, {
         "title": "clear-view-escapes-landing-page",
-        "url": "https://github.com/ahmedhosna95/clear-view-escapes-landing-page",
+        "url": "https://github.com/ahmadnasrhosna/clear-view-escapes-landing-page",
         "description": "Responsive HTML landing page can help showcase services, applications or products. Built with Webpack, PostCSS and VanillaJS, Code Splitting and CSS Architecture (ITCSS, OOCSS, BEM).",
         "language": "JavaScript"
     }, {
         "title": "writescape-mern",
-        "url": "https://github.com/ahmedhosna95/writescape-mern",
+        "url": "https://github.com/ahmadnasrhosna/writescape-mern",
         "description": "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more.",
         "language": "JavaScript"
     }]

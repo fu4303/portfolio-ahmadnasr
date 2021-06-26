@@ -1,7 +1,7 @@
 ---
 order: 2
 title: "HackerNews Clone (NextJS App)"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 summary: "A Hacker News clone (PWA) with offline functionality built with Next.js using service workers via next-offline."
 year: "2020"
 banner: "/nhn1-banner.png"
@@ -19,7 +19,7 @@ category: recent
 thumb: "recent-007.png"
 links:
   - live: "https://next-hacker-pwa.vercel.app/"
-  - code: "https://github.com/ahmedhosna95/next-hacker-news"
+  - code: "https://github.com/ahmadnasrhosna/next-hacker-news"
 scope: "s-portfolio-item"
 ---
 <hr class="u-line-divider"/>
@@ -28,7 +28,7 @@ Next Hacker is a Hacker News clone (SPA & PWA) with offline functionality built 
 
 - Test it out on [Vercel](https://next-hacker-pwa.vercel.app).
 
-- View source code on [GitHub](https://github.com/ahmedhosna95/next-hacker-news).
+- View source code on [GitHub](https://github.com/ahmadnasrhosna/next-hacker-news).
 
 
 #### Project Process Workflow:

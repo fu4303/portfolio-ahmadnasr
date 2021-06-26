@@ -2,7 +2,7 @@
 order: 10
 title: "Event Delegation (Sortable table)"
 summary: "Exercise on Event Delegation (Sortable table)"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2018"
 roles:
   - "Front-end development"
@@ -10,12 +10,12 @@ tech:
   - "VanillaJS"
   - "HTML5"
   - "CSS"
-link: "https://codepen.io/ahmedhosna95/full/NEoPyV"
+link: "https://codepen.io/ahmadnasr/full/NEoPyV"
 category: js
 thumb: "js-010.png"
 banner: "js-010.png"
 links:
-  - live: "https://codepen.io/ahmedhosna95/full/NEoPyV"
-  - code: "https://codepen.io/ahmedhosna95/pen/NEoPyV"
+  - live: "https://codepen.io/ahmadnasr/full/NEoPyV"
+  - code: "https://codepen.io/ahmadnasr/pen/NEoPyV"
 scope: "s-portfolio-item"
 ---

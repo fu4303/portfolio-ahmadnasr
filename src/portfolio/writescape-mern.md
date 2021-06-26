@@ -1,7 +1,7 @@
 ---
 order: 1
 title: "Writescape (MERN Stack)"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 summary: "A modern full-stack single-page app (SPA) built with React, using modern practices like Hooks, Context, Reducer, Suspense and more."
 year: "2020"
 banner: "/writescape-screenshots/writescape-banner.png"
@@ -21,7 +21,7 @@ category: recent
 thumb: "recent-001.png"
 links:
   - live: "https://writescape.netlify.app/"
-  - code: "https://github.com/ahmedhosna95/writescape-mern"
+  - code: "https://github.com/ahmadnasrhosna/writescape-mern"
 scope: "s-portfolio-item"
 ---
 <hr class="u-line-divider"/>
@@ -33,13 +33,13 @@ Writescape is a modern full-stack single-page app (SPA) hosted and deployed on [
   - Express.js, a minimal and flexible Node.js web app framework.
   - Node.js, a JavaScript runtime.
 
-Back-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-backend-api).
+Back-end source code: [GitHub](https://github.com/ahmadnasrhosna/writescape-backend-api).
 
 #### Frontend:
   - React.js
   - CSS3
 
-Front-end source code: [GitHub](https://github.com/ahmedhosna95/writescape-mern).
+Front-end source code: [GitHub](https://github.com/ahmadnasrhosna/writescape-mern).
 
 #### Project Process Workflow:
   - NPM Scripts + Webpack

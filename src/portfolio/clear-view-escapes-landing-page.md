@@ -1,7 +1,7 @@
 ---
 order: 5
 title: "ClearViewEscapes Landing Page"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 summary: "Responsive HTML landing page can help showcase services, applications or products. Built with Webpack, PostCSS and VanillaJS, Code Splitting and CSS Architecture (ITCSS, OOCSS, BEM)."
 year: "2020"
 banner: "/tswebpack-banner.png"
@@ -21,6 +21,6 @@ category: recent
 thumb: "recent-006.png"
 links:
   - live: "https://travel-site-webpack.netlify.app/"
-  - code: "https://github.com/ahmedhosna95/clear-view-escapes-landing-page"
+  - code: "https://github.com/ahmadnasrhosna/clear-view-escapes-landing-page"
 scope: "s-portfolio-item"
 ---

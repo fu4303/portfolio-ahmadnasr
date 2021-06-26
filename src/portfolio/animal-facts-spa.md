@@ -2,7 +2,7 @@
 order: 3
 title: "Animal Facts (SPA)"
 summary: "Animal Facts is a simple single-page app using React."
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2020"
 roles:
   - "Front-end development"
@@ -17,6 +17,6 @@ thumb: "js-003.png"
 banner: "animal-facts-banner.png"
 links:
   - live: "https://animalfacts.netlify.com/"
-  - code: "https://github.com/ahmedhosna95/animal-facts-react-router"
+  - code: "https://github.com/ahmadnasrhosna/animal-facts-react-router"
 scope: "s-portfolio-item"
 ---

@@ -5,17 +5,17 @@ permalink: /posts/feed.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Posts - {{ site.title }}</title>
   <subtitle>{{ site.description }}</subtitle>
-  <link href="https://ahmedhosna.netlify.com/posts/feed" rel="self"/>
-  <link href="https://ahmedhosna.netlify.com"/>
+  <link href="https://ahmadnasr.net/posts/feed" rel="self"/>
+  <link href="https://ahmadnasr.net"/>
   <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
-  <id>https://ahmedhosna.netlify.com</id>
+  <id>https://ahmadnasr.net</id>
   <author>
-    <name>Ahmed Hosna</name>
-    <email>ahmedhosna95@gmail.com</email>
+    <name>Ahmad Nasr</name>
+    <email>ahmadnasrhosna@gmail.com</email>
   </author>
   {%- for post in collections.posts %}
-  {% set idUrl %}{{ post.url | url | absoluteUrl('https://ahmedhosna.netlify.com') }}{% endset %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl('https://ahmedhosna.netlify.com') }}{% endset %}
+  {% set idUrl %}{{ post.url | url | absoluteUrl('https://ahmadnasr.net') }}{% endset %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl('https://ahmadnasr.net') }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     {% if post.data.link %}

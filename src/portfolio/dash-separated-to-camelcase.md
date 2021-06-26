@@ -2,7 +2,7 @@
 order: 5
 title: "Dash-separated to camelCase"
 summary: "Translate a dash-separated word to camelCase style"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2018"
 roles:
   - "Front-end development"
@@ -10,13 +10,13 @@ tech:
   - "VanillaJS"
   - "HTML5"
   - "CSS/SCSS"
-link: "https://codepen.io/ahmedhosna95/full/zmpoVd"
+link: "https://codepen.io/ahmadnasr/full/zmpoVd"
 category: js
 thumb: "s-026.png"
 banner: "dash-separated-to-camecase-banner.png"
 links:
-  - live: "https://codepen.io/ahmedhosna95/full/zmpoVd"
-  - code: "https://codepen.io/ahmedhosna95/pen/zmpoVd"
+  - live: "https://codepen.io/ahmadnasr/full/zmpoVd"
+  - code: "https://codepen.io/ahmadnasr/pen/zmpoVd"
 scope: "s-portfolio-item"
 ---
 

@@ -2,19 +2,19 @@
 order: 23
 title: "Gradient border-radius"
 summary: "Gradient background for border-radius boxes"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2018"
 roles:
   - "UI development"
 tech:
   - "HTML5"
   - "CSS3/SASS"
-link: "https://codepen.io/ahmedhosna95/full/xzgYVN"
+link: "https://codepen.io/ahmadnasr/full/xzgYVN"
 category: sandbox
 thumb: "s-016.png"
 banner: "/grounded-border-banner.png"
 links:
-  - live: "https://codepen.io/ahmedhosna95/full/xzgYVN"
-  - code: "https://codepen.io/ahmedhosna95/pen/xzgYVN"
+  - live: "https://codepen.io/ahmadnasr/full/xzgYVN"
+  - code: "https://codepen.io/ahmadnasr/pen/xzgYVN"
 scope: "s-portfolio-item"
 ---

@@ -5,17 +5,17 @@ permalink: /bookmarks/feed.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Bookmarks - {{ site.title }}</title>
   <subtitle>{{ site.description }}</subtitle>
-  <link href="https://ahmedhosna.netlify.com/bookmarks/feed" rel="self"/>
-  <link href="https://ahmedhosna.netlify.com"/>
+  <link href="https://ahmadnasr.net/bookmarks/feed" rel="self"/>
+  <link href="https://ahmadnasr.net"/>
   <updated>{{ collections.bookmarks | rssLastUpdatedDate }}</updated>
-  <id>https://ahmedhosna.netlify.com</id>
+  <id>https://ahmadnasr.net</id>
   <author>
-    <name>Ahmed hosna</name>
-    <email>ahmedhosna95.com</email>
+    <name>Ahmad Nasr</name>
+    <email>ahmadnasrhosna@gmail.com</email>
   </author>
   {%- for post in collections.bookmarks %}
-  {% set idUrl %}{{ post.url | url | absoluteUrl('https://ahmedhosna.netlify.com') }}{% endset %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl('https://ahmedhosna.netlify.com') }}{% endset %}
+  {% set idUrl %}{{ post.url | url | absoluteUrl('https://ahmadnasr.net') }}{% endset %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl('https://ahmadnasr.net') }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ post.data.link }}" rel="alternate" type="text/html"/>

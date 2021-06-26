@@ -1,7 +1,7 @@
 ---
 order: 3
 title: "NextPortfolio (NextJS App)"
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 summary: "A small server-rendered React blog app built with Next.js"
 year: "2020"
 banner: "/np-banner.png"
@@ -18,7 +18,7 @@ category: recent
 thumb: "recent-008.png"
 links:
   - live: "https://next-portfolio-topaz.vercel.app/about"
-  - code: "https://github.com/ahmedhosna95/next-portfolio"
+  - code: "https://github.com/ahmadnasrhosna/next-portfolio"
 scope: "s-portfolio-item"
 ---
 <hr class="u-line-divider"/>
@@ -27,7 +27,7 @@ Next Hacker is a small server-rendered React blog app built with Next.js, hosted
 
 - Test it out on [Vercel](https://next-portfolio-topaz.vercel.app/about).
 
-- View source code on [GitHub](https://github.com/ahmedhosna95/next-portfolio).
+- View source code on [GitHub](https://github.com/ahmadnasrhosna/next-portfolio).
 
 <hr class="u-line-divider"/>
 

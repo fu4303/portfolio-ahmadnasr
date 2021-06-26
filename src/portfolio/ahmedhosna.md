@@ -1,7 +1,7 @@
 ---
 order: 3
-title: "Ahmed Hosna (My Personal Website)"
-team: "Ahmed Hosna"
+title: "Ahmad Nasr (My Personal Website)"
+team: "Ahmad Nasr"
 summary: "My personal website. Built with Eleventy the static site generator, VanillaJS and VanillaCSS. Hosted on Netlify."
 year: "2019"
 banner: "/ahmedhosna-banner.png"
@@ -13,20 +13,20 @@ tech:
   - "VanillaJS"
   - "VanillaCSS"
   - "Nunjucks"
-link: "https://ahmedhosna.netlify.app/"
+link: "https://ahmadnasr.netlify.app/"
 # banner: ""
 category: recent
 thumb: "recent-010.png"
 links:
-  - live: "https://ahmedhosna.netlify.app/"
-  - code: "https://github.com/ahmedhosna95/ahmedhosna.me"
+  - live: "https://ahmadnasr.netlify.app/"
+  - code: "https://github.com/ahmadnasrhosna/ahmadnasr.net"
 scope: "s-portfolio-item"
 ---
 <hr class="u-line-divider"/>
 
 My personal website. Built with Eleventy the static site generator, VanillaJS and VanillaCSS. Hosted on [Netlify](https://writescape.netlify.app).
 
-- View Source Code on [GitHub](https://github.com/ahmedhosna95/ahmedhosna.me).
+- View Source Code on [GitHub](https://github.com/ahmadnasrhosna/ahmadnasr.net).
 
 <hr class="u-line-divider"/>
 

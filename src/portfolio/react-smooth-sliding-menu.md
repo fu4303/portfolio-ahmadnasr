@@ -2,7 +2,7 @@
 order: 4
 title: "Smooth Sliding Menu"
 summary: "A totally awesome menu in React that smoothly animates in and out."
-team: "Ahmed Hosna"
+team: "Ahmad Nasr"
 year: "2020"
 roles:
   - "Front-end development"
@@ -17,6 +17,6 @@ thumb: "js-018.gif"
 banner: "reactsmoothslidingmenuxl.gif"
 links:
   - live: "https://react-smooth-sliding-menu.netlify.app/"
-  - code: "https://github.com/ahmedhosna95/react-smooth-sliding-menu"
+  - code: "https://github.com/ahmadnasrhosna/react-smooth-sliding-menu"
 scope: "s-portfolio-item"
 ---
