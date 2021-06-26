@@ -33,81 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc688e75-9d49-439d-9e76-a35a973c957f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_data/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/site.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/default.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/default.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/feeds/bookmarks.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/feeds/bookmarks.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/feeds/posts.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/feeds/posts.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/thanks.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/thanks.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/accessible-nav.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/accessible-nav.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/ahmedhosna.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/ahmedhosna.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/animal-facts-spa.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/animal-facts-spa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/animated-rainbow-border.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/animated-rainbow-border.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/animation-on-hover-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/animation-on-hover-01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/bitzprice.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/bitzprice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/celsius-to-fahrenheit.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/celsius-to-fahrenheit.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/clear-view-escapes-landing-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/clear-view-escapes-landing-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/clip-path-animation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/clip-path-animation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/close-modal-outside.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/close-modal-outside.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/company-profile.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/company-profile.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/cool-animated-buttons-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/cool-animated-buttons-01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/cool-animated-buttons-02.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/cool-animated-buttons-02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/css-floats.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/css-floats.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/css-grid-masonry-style-layout.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/css-grid-masonry-style-layout.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/css-js-clock.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/css-js-clock.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/custom-accessible-checkboxes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/custom-accessible-checkboxes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/dash-separated-to-camelcase.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/dash-separated-to-camelcase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/e-delegation-sortable-table.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/e-delegation-sortable-table.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/e-delegation-with-mouseoverout.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/e-delegation-with-mouseoverout.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/edit-on-click copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/edit-on-click copy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/edit-on-click.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/edit-on-click.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/editable-div-js.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/editable-div-js.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/element-window-sizes-scrolling.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/element-window-sizes-scrolling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/fade-bounce-animation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/fade-bounce-animation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/file-manger-selectable-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/file-manger-selectable-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/flexbox-layout1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/flexbox-layout1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/frontend-daily-log.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/frontend-daily-log.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/frontend-javascript-001.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/frontend-javascript-001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/frontend-javascript-002.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/frontend-javascript-002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/frontend-sandbox-001.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/frontend-sandbox-001.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/get-calendar.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/get-calendar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/glancer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/glancer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/grounded-border.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/grounded-border.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/image-gallery.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/image-gallery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/instagram-desktop-homepage-clone.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/instagram-desktop-homepage-clone.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/instant-app-landing-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/instant-app-landing-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/json-ajax.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/json-ajax.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/kushed-strain-review.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/kushed-strain-review.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/navigation-confirmation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/navigation-confirmation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/next-hacker-news.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/next-hacker-news.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/next-portfolio.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/next-portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/opacity-on-scroll.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/opacity-on-scroll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/prevent-copy-cut.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/prevent-copy-cut.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/primitive-slider.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/primitive-slider.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/psdtohtml000.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/psdtohtml000.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/react-smooth-sliding-menu.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/react-smooth-sliding-menu.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/recipe-card.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/recipe-card.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/scroll-percentage-indicator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/scroll-percentage-indicator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/shake-animation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/shake-animation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/show-hide-drawer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/show-hide-drawer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/shuffle-vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/shuffle-vue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/simple-slider.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/simple-slider.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/simple-todolist-with-react.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/simple-todolist-with-react.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/srt-table-by-name.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/srt-table-by-name.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/stuff-following-mouse-pointer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/stuff-following-mouse-pointer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/svg-social-media-share-buttons.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/svg-social-media-share-buttons.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/telegram-saas-landing-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/telegram-saas-landing-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/time-now.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/time-now.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/tooltip-behavior.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/tooltip-behavior.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/travel-site-landing-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/travel-site-landing-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/update-student-html-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/update-student-html-template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/warsha-404.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/warsha-404.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/warsha-subs.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/warsha-subs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/watch-for-updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/watch-for-updates.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/writescape-mern.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/writescape-mern.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/2018-6-28-image-hover-effects.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/2018-6-28-image-hover-effects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts/2020-04-07-postcss-preserve-option.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/2020-04-07-postcss-preserve-option.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/components/banner.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/components/banner.njk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -139,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624672927757</updated>
-      <workItem from="1624672929281" duration="904000" />
+      <workItem from="1624672929281" duration="1204000" />
     </task>
     <servers />
   </component>
@@ -158,9 +85,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624673831327">
+    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624674157466">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624673831327" />
+    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624674157466" />
   </component>
 </project>
