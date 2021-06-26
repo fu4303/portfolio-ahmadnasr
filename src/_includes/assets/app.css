@@ -926,11 +926,11 @@ kbd {
     hsl(164 33% 87% / 1),
     hsl(305 43% 90% / 1)
   );
-  padding: 2rem 0 1rem;
+  padding: .2em 0;
   font-size: 4rem;
   text-align: center;
   border: 4px solid #444;
-  font-family: sky-bold;
+  font-family: "Inter", "IBM Plex Sans Arabic";
   color: #343434;
   margin-top: 6rem !important;
   font-weight: bold;
@@ -1654,7 +1654,7 @@ a.c-pill:hover:after {
 
 .c-article[data-lang="ar"] .c-article__content {
   --article-pad-h: 1.25rem;
-  font-family: "sky", sans-serif;
+  font-family: "Inter", "IBM Plex Sans Arabic", sans-serif;
   letter-spacing: 0.01em;
   z-index: 1;
 }
@@ -1674,7 +1674,8 @@ a.c-pill:hover:after {
 .c-article[data-lang="ar"] .c-article__content h5,
 .c-article[data-lang="ar"] .c-article__content h6,
 .c-article[data-lang="ar"] .c-article__content strong {
-  font-family: "sky-bold", sans-serif !important;
+  font-family: "Inter", "IBM Plex Sans Arabic", sans-serif !important;
+  font-weight: 700 !important;
 }
 
 .c-article[data-lang="ar"] .c-article__content h2,
@@ -1751,7 +1752,8 @@ a.c-pill:hover:after {
   }
 
   .c-article[data-lang="ar"] .c-article__content {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
+    font-weight: 400;
   }
 }
 
@@ -2679,7 +2681,8 @@ a.c-pill:hover:after {
 }
 
 .c-entry[data-lang="ar"] .c-entry__title {
-  --font-family-special: "sky-bold", sans-serif;
+  --font-family-special: "Inter", "IBM Plex Sans Arabic", sans-serif;
+  font-weight: 700;
   direction: rtl;
   text-align: right;
   font-size: 2.2rem;

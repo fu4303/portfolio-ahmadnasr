@@ -33,7 +33,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc688e75-9d49-439d-9e76-a35a973c957f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_includes/components/banner.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/components/banner.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Text.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/IBMPlexSansArabic-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/IBMBlexSansArabic/stylesheet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/assets/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/assets/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/assets/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/assets/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/default.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/default.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/post.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/post.njk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +67,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624672927757</updated>
-      <workItem from="1624672929281" duration="1204000" />
+      <workItem from="1624672929281" duration="2302000" />
     </task>
     <servers />
   </component>
@@ -85,9 +103,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624674157466">
+    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624675261649">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624674157466" />
+    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624675261649" />
   </component>
 </project>
