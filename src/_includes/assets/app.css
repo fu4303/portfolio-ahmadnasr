@@ -614,7 +614,6 @@ kbd {
   font-size: 2.8rem;
   color: #3e3e3e;
   flex-grow: 1;
-  letter-spacing: -0.03em;
   font-weight: bold;
   position: relative;
   top: 9px;
