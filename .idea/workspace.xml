@@ -32,11 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc688e75-9d49-439d-9e76-a35a973c957f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/assets/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/assets/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/components/banner.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/components/banner.njk" afterDir="false" />
-    </list>
+    <list default="true" id="cc688e75-9d49-439d-9e76-a35a973c957f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624672927757</updated>
-      <workItem from="1624672929281" duration="5701000" />
+      <workItem from="1624672929281" duration="5978000" />
     </task>
     <servers />
   </component>
@@ -98,9 +94,9 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="469" y="250" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1624712926880" />
-    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624741512558">
+    <state x="661" y="369" width="597" height="548" key="find.popup" timestamp="1624777037767">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624741512558" />
+    <state x="661" y="369" width="597" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1624777037767" />
   </component>
 </project>

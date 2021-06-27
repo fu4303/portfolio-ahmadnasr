@@ -1090,8 +1090,8 @@ kbd {
 
 .c-hello__text h2 {
   font-size: 2.2rem;
-  font-family: var(--font-family-special);
-  font-weight: normal;
+  font-family: "Cocogoose", sans-serif;
+  font-weig.c-hello__text h2ht: normal;
   letter-spacing: 0.01em;
 }
 
@@ -1119,7 +1119,7 @@ kbd {
   }
 
   .c-hello__text h2 {
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
 }
 
@@ -2903,10 +2903,10 @@ a.c-pill:hover:after {
 .s-index .c-section:not(:first-child) h2 {
   color: var(--color-accent);
   margin: 0 0 0.3rem;
-  font-size: 2.8rem;
-  letter-spacing: -0.02em;
-  font-family: var(--font-family-special);
-  font-weight: normal;
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+  font-family: "Cocogoose", sans-serif;
+  font-weight: bold;
 }
 
 .s-index .c-section:nth-of-type(3) p:last-child span:first-child {
