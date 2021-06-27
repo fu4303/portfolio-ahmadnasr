@@ -642,8 +642,11 @@ kbd {
   }
 
   .p-header__tagline {
-    padding: 0.25rem 0;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -2212,8 +2215,8 @@ a.c-pill:hover:after {
 .c-article__author-name {
   margin-top: 0.3rem;
   font-size: 1.7rem;
-  font-family: var(--font-family-special);
-  font-weight: normal;
+  font-family: "Cocogoose", sans-serif;
+  font-weight: bold;
   color: #fff;
   letter-spacing: 0.02em;
 }
@@ -2232,7 +2235,7 @@ a.c-pill:hover:after {
   }
 
   .c-article__author-name {
-    font-size: 1.9rem;
+    font-size: 2.3rem;
   }
 }
 
